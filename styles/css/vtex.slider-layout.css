@@ -1,0 +1,95 @@
+/* ------------------------------- */
+/* //* Home */
+/* ------------------------------- */
+.sliderArrows {
+  padding: 5px;
+  color: #ededed;
+  background-color: #ffffff !important;
+  border-radius: 50%;
+  box-shadow: 0px 0px 13px 0px #00000026;
+  transition: 0.3s;
+}
+.sliderArrows:hover {
+  color: #28508c;
+}
+/* ! Top Slide */
+.paginationDot--TopSlide__Container {
+  background-color: #c4c4c4;
+}
+.paginationDot--TopSlide__Container--isActive {
+  background-color: #696969;
+}
+.flexRowContent--Home__CategorySlide {
+  margin-top: 30px;
+}
+.sliderLayoutContainer--CategorySlide__Container {
+  padding: 0 15px;
+}
+/* ! Slide category */
+.slideChildrenContainer--CategorySlide__Container {
+  padding: 0 5px;
+}
+.sliderArrows--CategorySlide__Container {
+  transform: translateY(-20px);
+}
+/* ! Vitrina */
+.sliderTrackContainer--Shelf__Slider {
+  margin-bottom: 50px;
+}
+.paginationDot--Shelf__Slider {
+  background-color: #c4c4c4;
+}
+.paginationDot--Shelf__Slider--isActive {
+  background-color: #28508c;
+}
+
+/* ------------------------------- */
+/* //? Medias Query */
+/* ------------------------------- */
+@media (min-width: 1200px) {
+  /* ! Category Slide */
+  .sliderTrackContainer--CategorySlide__Container {
+    margin: 0 100px;
+  }
+  .sliderLeftArrow--CategorySlide__Container {
+    left: 100px;
+  }
+  .sliderRightArrow--CategorySlide__Container {
+    right: 100px;
+  }
+  /* ! Vitrina */
+  .sliderLayoutContainer--Shelf__Slider {
+    padding: 0 100px;
+  }
+  .sliderLeftArrow--Shelf__Slider {
+    left: 80px;
+  }
+  .sliderRightArrow--Shelf__Slider {
+    right: 80px;
+  }
+}
+
+/* ------------------------------- */
+.sliderLayoutContainer {
+  justify-content: center;
+}
+.sliderLayoutContainer--carousel {
+  background-color: #f0f0f0;
+}
+
+.paginationDotsContainer {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.layoutContainer--shelf {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  max-width: 96rem;
+}
+
+.slide--shelf {
+  margin-bottom: 25px;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}

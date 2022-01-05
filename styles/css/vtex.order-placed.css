@@ -1,0 +1,237 @@
+/* ------------------------------- */
+/* //* Order placed */
+/* ------------------------------- */
+.section--confirmation::before {
+  content: 'Pedido confirmado';
+  font-family: Urbanist;
+  font-size: 24px;
+  font-weight: 700;
+  color: #28508c;
+  text-transform: uppercase;
+}
+.orderPlacedWrapper {
+  padding: 10px 20px 50px;
+}
+.confirmationIconWrapper {
+  display: none;
+}
+.confirmationTitle::after {
+  content: '';
+  width: 20px;
+  height: 20px;
+  background-image: url('https://beisbol.vteximg.com.br/arquivos/pedido-confirmado-icono-checkout.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.confirmationTitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  border: 1px solid #67e206;
+  border-radius: 10px;
+  font-family: Urbanist;
+  font-size: 19px;
+  font-weight: 400;
+  color: #67e206;
+}
+.confirmationMessage::before {
+  content: '¡Gracias por tu compra!';
+  font-family: Urbanist;
+  font-size: 22px;
+  font-weight: 700;
+  color: #28508c;
+  margin-bottom: 10px;
+}
+.confirmationMessage {
+  display: flex;
+  flex-direction: column;
+  font-family: Urbanist;
+  font-size: 15px;
+  font-weight: 400;
+  color: #0891d0;
+}
+.noticesList {
+  background-color: #f8f8f8;
+  border-radius: 10px;
+}
+.noticeListItem {
+  color: #0891d0;
+  font-family: Urbanist;
+  font-size: 16px;
+  font-weight: 400;
+  border-bottom: 1px solid #ededed;
+}
+.noticeListItem:last-child {
+  border-bottom: 0;
+}
+.orderNumber {
+  font-family: Urbanist;
+  font-size: 25px;
+  font-weight: 700;
+  color: #28508c;
+}
+.orderPlacedMainWrapper {
+  margin: 0;
+  width: 100%;
+}
+.orderDatetime {
+  font-family: Urbanist;
+  font-size: 15px;
+  font-weight: 400;
+  color: #0891d0;
+}
+.customerInfoListContainer {
+  display: flex;
+  flex-direction: column;
+  font-family: Urbanist;
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 30px;
+  padding: 10px;
+  background-color: #f8f8f8;
+  border-radius: 10px;
+}
+.customerInfoListContainer::before {
+  font-family: Urbanist;
+  font-size: 20px;
+  font-weight: 700;
+  color: #28508c;
+  content: 'Resumen';
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.customerInfoListName {
+  color: #0891d0;
+}
+.customerInfoListEmail {
+  color: #0891d0;
+}
+.customerInfoListDocument {
+  color: #0891d0;
+}
+.customerInfoListPhone {
+  color: #0891d0;
+}
+.orderPaymentItem {
+  display: none;
+}
+.cancelOrderButton :global(.vtex-button__label) {
+  font-family: 'Urbanist';
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--confirmationButtons)
+  :global(.vtex-button) {
+  border: 1px solid #28508c;
+  border-radius: 100px;
+  background-color: #28508c;
+  color: white;
+  font-family: 'Urbanist';
+}
+.myOrdersButton :global(.vtex-button) {
+  border: 1px solid #28508c;
+  border-radius: 100px;
+  background-color: #28508c;
+  color: white;
+  font-family: 'Urbanist';
+}
+.updateOrderButton :global(.vtex-button) {
+  border: 1px solid #28508c;
+  border-radius: 100px;
+  background-color: #28508c;
+  color: white;
+  font-family: 'Urbanist';
+}
+.packageDeliveryTitle {
+  font-family: Urbanist;
+  font-size: 20px;
+  font-weight: 700;
+  color: #28508c;
+  content: 'Resumen';
+  text-transform: uppercase;
+}
+.packageShippingEstimate {
+  font-family: Urbanist;
+  font-size: 16px;
+  font-weight: 500;
+  color: #0891d0;
+}
+.packageSLA {
+  font-family: Urbanist;
+  font-size: 16px;
+  font-weight: 500;
+  color: #0891d0;
+}
+.addressContainer {
+  font-family: Urbanist;
+  font-size: 16px;
+  font-weight: 500;
+  color: #0891d0;
+}
+.productWrapper {
+  font-family: Urbanist;
+  font-size: 16px;
+  font-weight: 400;
+  color: #0891d0;
+  text-align: start;
+}
+.productQuantity {
+  display: none;
+}
+.productName {
+  font-family: Urbanist;
+  font-size: 17px;
+  font-weight: 400;
+  color: #0891d0;
+  text-align: start;
+}
+.productImageWrapper {
+  box-shadow: 0px 4px 15px 0px #28508c33;
+  border-radius: 10px;
+}
+.section--deliveryPackages {
+  border: 0;
+}
+.totalListItem--Items {
+  font-family: Urbanist;
+  font-size: 16px;
+  font-weight: 400;
+  color: #28508c;
+}
+.totalListItemValue {
+  color: #28508c;
+}
+.totalListItem--Shipping {
+  font-family: Urbanist;
+  font-weight: 400;
+  color: #28508c;
+}
+.totalListItem {
+  color: #28508c;
+}
+.totalListItemLabel {
+  font-family: 'Urbanist';
+}
+.totalListItemValue {
+  font-family: 'Urbanist';
+}
+
+/* ------------------------------- */
+/* //? Media Queries */
+/* ------------------------------- */
+@media (min-width: 1200px) {
+  .orderPlacedWrapper {
+    padding: 40px 100px;
+  }
+  .totalList {
+    width: 40%;
+  }
+}
+@media (min-width: 1500px) {
+  .orderPlacedWrapper {
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+}
+
+/* ------------------------------- */

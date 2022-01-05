@@ -1,0 +1,179 @@
+{
+  // * Item Cuidado Pisos
+  "menu-item#1": {
+    "props": {
+      "blockClass": ["MenuItem", "MenuItem--1"],
+      "id": "menu-item-1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Cuidado de Pisos",
+        "text": "Cuidado de Pisos"
+      }
+    }
+  },
+
+  // * Item Cuidado Cocina
+  "menu-item#2": {
+    "props": {
+      "blockClass": ["MenuItem", "MenuItem--2"],
+      "id": "menu-item-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Cuidado de la Cocina",
+        "text": "Cuidado de la Cocina"
+      }
+    }
+  },
+
+  // * Item Cuidado del Hogar
+  "menu-item#3": {
+    "props": {
+      "blockClass": ["MenuItem", "MenuItem--3"],
+      "id": "menu-item-3",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Cuidado del Hogar",
+        "text": "Cuidado del Hogar"
+      }
+    }
+  },
+
+  // * Item Cuidado Ropa
+  "menu-item#4": {
+    "props": {
+      "blockClass": ["MenuItem", "MenuItem--4"],
+      "id": "menu-item-4",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Cuidado de la Ropa",
+        "text": "Cuidado de la Ropa"
+      }
+    }
+  },
+
+  // * Item Cuidado Calzado
+  "menu-item#5": {
+    "props": {
+      "blockClass": ["MenuItem", "MenuItem--5"],
+      "id": "menu-item-5",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Cuidado de Calzado",
+        "text": "Cuidado de Calzado"
+      }
+    }
+  },
+
+  // * Item Marca
+  "menu-item#6": {
+    "props": {
+      "blockClass": [
+        "MenuItem",
+        "MenuItem__Tile",
+        "MenuItem--6"
+      ],
+      "id": "menu-item-6",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Marca",
+        "text": "Productos"
+      }
+    }
+  },
+
+  // * Item Infaltables
+  "menu-item#7": {
+    "props": {
+      "blockClass": [
+        "MenuItem",
+        "MenuItem__Tile",
+        "MenuItem--7"
+      ],
+      "id": "menu-item-7",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Infaltables",
+        "text": "Infaltables"
+      }
+    }
+  },
+
+  // * Item Beisbol Profesional
+  "menu-item#8": {
+    "props": {
+      "blockClass": [
+        "MenuItem",
+        "MenuItem__Tile",
+        "MenuItem--8"
+      ],
+      "id": "menu-item-8",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Beisbol Profesional",
+        "text": "Beisbol Profesional"
+      }
+    }
+  },
+
+  // * Item Ofertas
+  "menu-item#9": {
+    "props": {
+      "blockClass": [
+        "MenuItem",
+        "MenuItem__Tile",
+        "MenuItem--9"
+      ],
+      "id": "menu-item-9",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Ofertas",
+        "text": "Ofertas"
+      }
+    }
+  }
+}

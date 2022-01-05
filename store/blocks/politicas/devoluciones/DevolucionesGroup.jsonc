@@ -1,0 +1,82 @@
+{
+  // * Devoluciones Section
+  "disclosure-layout#Devoluciones": {
+    "props": {
+      "blockClass": [
+        "Disclosure__group",
+        "Disclosure__group--Devoluciones"
+      ]
+    },
+    "children": [
+      "disclosure-trigger#Devoluciones",
+      "disclosure-content#Devoluciones"
+    ]
+  },
+  // ! Devoluciones Title Group
+  "disclosure-trigger#Devoluciones": {
+    "props": {
+      "blockClass": [
+        "Disclosure__Trigger-Politics",
+        "Disclosure__Trigger-Politics--Devoluciones"
+      ]
+    },
+    "children": ["rich-text#DevolucionesTitle"]
+  },
+  // ? Group Title
+  "rich-text#DevolucionesTitle": {
+    "props": {
+      "blockClass": [
+        "Politics__Group-Title",
+        "Politics__Group-Title--Devoluciones"
+      ],
+      "text": "Devoluciones"
+    }
+  },
+  // ! Devoluciones content
+  "disclosure-content#Devoluciones": {
+    "props": {
+      "blockClass": [
+        "Disclosure__content",
+        "Disclosure__content--Devoluciones"
+      ]
+    },
+    "children": ["tab-list.item#Devoluciones"]
+  },
+
+  //***************************************************************************
+  // * Item 1
+  //***************************************************************************
+  "tab-list.item#Devoluciones": {
+    "props": {
+      "blockClass": [
+        "TabItem",
+        "TabItem--Devoluciones"
+      ],
+      "tabId": "devoluciones",
+      "label": "Devoluciones"
+    }
+  },
+  // ! Item content Devoluciones
+  // It is necessary to add this components into politics.jsonc at tab-content#Politics__Content
+  "tab-content.item#Devoluciones": {
+    "children": ["rich-text#Devoluciones"],
+    "props": {
+      "blockClass": [
+        "TabContent",
+        "TabContent--Devoluciones"
+      ],
+      "tabId": "devoluciones"
+    }
+  },
+  // ? Rich text Devoluciones
+  "rich-text#Devoluciones": {
+    "props": {
+      "blockClass": [
+        "Politics__Text",
+        "Politics__Text--Devoluciones"
+      ],
+      "text": "## Politics en Devoluciones ETC"
+    }
+  }
+  //***************************************************************************
+}

@@ -1,0 +1,111 @@
+/* ------------------------------- */
+/* //* Menu */
+/* ------------------------------- */
+.menuContainer {
+  width: 100%;
+  padding: 0 20px;
+}
+.menuContainerNav {
+  width: 100%;
+}
+:global(.vtex-disclosure-layout-1-x-content--Disclosure__Content--Category)
+  .menuItem--MenuItem {
+  border-bottom: 1px solid #0016894d;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+}
+:global(.vtex-disclosure-layout-1-x-content--Disclosure__Content--Category)
+  .menuItem--MenuItem:last-child {
+  border-bottom: none;
+}
+.styledLinkContent--MenuItem {
+  font-family: Urbanist;
+  font-size: 16px;
+  font-weight: 500;
+  color: #0891d0;
+  transition: 0.3s;
+}
+.styledLinkContainer--MenuItem__Tile {
+  margin: 0 0 15px;
+  padding: 15px 20px;
+  border: 1px solid #28508c;
+  border-radius: 100px;
+}
+.styledLinkContainer--MenuItem--9 {
+  background-color: #28508c;
+}
+.styledLinkContent--MenuItem__Tile {
+  font-family: Urbanist;
+  font-size: 20px;
+  font-weight: 700;
+  color: #0891d0;
+}
+.styledLinkContent--MenuItem--9 {
+  color: white;
+}
+.styledLinkContainer:first-child {
+  margin-left: 0;
+}
+
+/* ------------------------------- */
+/* //? Media queries */
+/* ------------------------------- */
+@media (min-width: 1200px) {
+  .styledLinkContainer--MenuItem__Tile {
+    margin: 0 40px;
+    padding: 0 15px;
+    border-color: transparent;
+  }
+  .menuItem--MenuItem--6
+    .styledLinkContainer--MenuItem--6 {
+    margin-left: 40px;
+  }
+  .styledLinkContent--MenuItem__Tile {
+    font-weight: 500;
+    font-size: 16px;
+    justify-content: center;
+  }
+  .styledLinkContent--MenuItem__Category {
+    color: #28508c;
+  }
+  .styledLinkContent--MenuItem__Category::after {
+    content: '';
+    margin-left: 20px;
+    width: 15px;
+    height: 15px;
+    background-image: url('https://beisbol.vteximg.com.br/arquivos/flecha-icono-search.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .menuItem--MenuItem__Category--isOpen
+    .styledLinkContent--MenuItem__Category::after {
+    transform: rotate(180deg);
+  }
+  .submenuWrapper--SubMenu__Group {
+    margin: 0;
+    border: none;
+    /* box-shadow: 0px 4px 10px 0px #0000001a; */
+  }
+  /* .menuContainer--Menu__Group {
+    padding: 0 20px;
+  } */
+  .menuContainer--Menu__Group
+    .styledLinkContainer--MenuItem {
+    margin: 0;
+    padding: 10px 60px 10px 0;
+    border-bottom: 1px solid #0016894d;
+  }
+  .menuContainer--Menu__Group
+    .menuItem--MenuItem:last-child
+    .styledLinkContainer--MenuItem {
+    border-bottom: none;
+  }
+  .menuContainer--Menu__Group
+    .styledLinkContent--MenuItem:hover {
+    color: #001689;
+  }
+}
+
+/* ------------------------------- */

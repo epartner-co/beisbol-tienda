@@ -1,0 +1,302 @@
+{
+  "store.custom#about": {
+    "props": {
+      "blockClass": ["About"]
+    },
+    "children": [
+      "info-card#About",
+      "flex-layout.row#AboutContainer",
+      "newsletter" // ./newsletter.jsonc
+    ]
+  },
+
+  // * Image Search
+  "info-card#About": {
+    "props": {
+      "id": "Info-card-about",
+      "blockClass": ["About__Image"],
+      "isFullModeStyle": true,
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "mobileImageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png"
+    }
+  },
+
+  // * Row container
+  "flex-layout.row#AboutContainer": {
+    "props": {
+      "blockClass": ["About__Container"]
+    },
+    "children": [
+      "flex-layout.row#WhoWeAre",
+      "flex-layout.row#Purpose",
+      "flex-layout.row#Text",
+      "flex-layout.row#Contact"
+    ]
+  },
+
+  // * Who we are Section
+  "flex-layout.row#WhoWeAre": {
+    "props": {
+      "blockClass": [
+        "About__Section",
+        "About__Section--WhoWeAre"
+      ]
+    },
+    "children": [
+      "rich-text#WhoWeAreTitle",
+      "rich-text#WhoWeAreText"
+    ]
+  },
+  // ! Title
+  "rich-text#WhoWeAreTitle": {
+    "props": {
+      "blockClass": [
+        "About__Title",
+        "About__Title--WhoWeAre"
+      ],
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Quienes somos"
+    }
+  },
+  // ! Text
+  "rich-text#WhoWeAreText": {
+    "props": {
+      "blockClass": [
+        "About__Text",
+        "About__Text--WhoWeAre"
+      ],
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Beisbol entrega a las personas productos y soluciones de limpieza y cuidado, para contribuir a una vida llena de salud, bienestar y alegría.\n#### Nuestro compromiso\nCrear y entregar productos y soluciones para acabar con la suciedad, contaminación, e infección en todos los espacios y superficies de una manera más fácil, rápida, económica y placentera."
+    }
+  },
+
+  // * Purpose Section
+  "flex-layout.row#Purpose": {
+    "props": {
+      "blockClass": [
+        "About__Section",
+        "About__Section--Purpose"
+      ]
+    },
+    "children": [
+      "flex-layout.col#PurposeMision",
+      "flex-layout.col#PurposeVision"
+    ]
+  },
+  // ! Mision Section
+  "flex-layout.col#PurposeMision": {
+    "props": {
+      "blockClass": [
+        "About__Purpose",
+        "About__Purpose--Mision"
+      ]
+    },
+    "children": [
+      "rich-text#PurposeMisionTitle",
+      "image#PurposeMisionImage",
+      "rich-text#PurposeMisionText"
+    ]
+  },
+  // ? Mision title
+  "rich-text#PurposeMisionTitle": {
+    "props": {
+      "blockClass": [
+        "About__Title",
+        "About__Title--Mision"
+      ],
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Misión"
+    }
+  },
+  // ? Mision Image
+  "image#PurposeMisionImage": {
+    "props": {
+      "blockClass": [
+        "About__Image",
+        "About__Image--Mision"
+      ],
+      "src": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png"
+    }
+  },
+  // ? Mision text
+  "rich-text#PurposeMisionText": {
+    "props": {
+      "blockClass": [
+        "About__Text",
+        "About__Text--Mision"
+      ],
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+    }
+  },
+  // ! Vision Section
+  "flex-layout.col#PurposeVision": {
+    "props": {
+      "blockClass": [
+        "About__Purpose",
+        "About__Purpose--Vision"
+      ]
+    },
+    "children": [
+      "rich-text#PurposeVisionTitle",
+      "image#PurposeVisionImage",
+      "rich-text#PurposeVisionText"
+    ]
+  },
+  // ? Vision title
+  "rich-text#PurposeVisionTitle": {
+    "props": {
+      "blockClass": [
+        "About__Title",
+        "About__Title--Vision"
+      ],
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Visión"
+    }
+  },
+  // ? Vision Image
+  "image#PurposeVisionImage": {
+    "props": {
+      "blockClass": [
+        "About__Image",
+        "About__Image--Vision"
+      ],
+      "src": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png"
+    }
+  },
+  // ? Vision text
+  "rich-text#PurposeVisionText": {
+    "props": {
+      "blockClass": [
+        "About__Text",
+        "About__Text--Vision"
+      ],
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+    }
+  },
+
+  // * Text Section
+  "flex-layout.row#Text": {
+    "props": {
+      "blockClass": [
+        "About__Section",
+        "About__Section--Text"
+      ]
+    },
+    "children": [
+      "image#TextImage",
+      "rich-text#TextText"
+    ]
+  },
+  // ! Image
+  "image#TextImage": {
+    "props": {
+      "blockClass": [
+        "About__Image",
+        "About__Image--Text"
+      ],
+      "src": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png"
+    }
+  },
+  // ! Text
+  "rich-text#TextText": {
+    "props": {
+      "blockClass": [
+        "About__Text",
+        "About__Text--Text"
+      ],
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "#### Ejemplo titulo\nLorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500."
+    }
+  },
+
+  // * Contact Section
+  "flex-layout.row#Contact": {
+    "props": {
+      "blockClass": [
+        "About__Section",
+        "About__Section--Contact"
+      ]
+    },
+    "children": [
+      "flex-layout.row#Socials",
+      "rich-text#GotToBuy"
+    ]
+  },
+  // ! Socials container
+  "flex-layout.row#Socials": {
+    "props": {
+      "blockClass": ["About__Socials"]
+    },
+    "children": [
+      "image#AboutFacebook",
+      "image#AboutInstagram",
+      "image#AboutYoutube"
+    ]
+  },
+  // ? Facebook Icon
+  "image#AboutFacebook": {
+    "props": {
+      "blockClass": [
+        "About__Image-Social",
+        "About__Image-Social--Facebook"
+      ],
+      "src": "https://beisbol.vteximg.com.br/arquivos/facebook-icon-about.png",
+      "link": {
+        "url": "#",
+        "label": "Facebook",
+        "newTab": true
+      }
+    }
+  },
+  // ? Instagram Icon
+  "image#AboutInstagram": {
+    "props": {
+      "blockClass": [
+        "About__Image-Social",
+        "About__Image-Social--Instagram"
+      ],
+      "src": "https://beisbol.vteximg.com.br/arquivos/instagram-icon-about.png",
+      "link": {
+        "url": "#",
+        "label": "Instagram",
+        "newTab": true
+      }
+    }
+  },
+  // ? Youtube Icon
+  "image#AboutYoutube": {
+    "props": {
+      "blockClass": [
+        "About__Image-Social",
+        "About__Image-Social--Youtube"
+      ],
+      "src": "https://beisbol.vteximg.com.br/arquivos/youtube-icon-about.png",
+      "link": {
+        "url": "#",
+        "label": "Youtube",
+        "newTab": true
+      }
+    }
+  },
+  // ! Text
+  "rich-text#GotToBuy": {
+    "props": {
+      "blockClass": [
+        "About__Text",
+        "About__Text--GotToBuy"
+      ],
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[Ir a comprar](#)"
+    }
+  }
+}

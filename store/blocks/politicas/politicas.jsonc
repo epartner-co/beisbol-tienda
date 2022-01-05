@@ -1,0 +1,83 @@
+{
+  "store.custom#politics": {
+    "props": {
+      "blockClass": ["Politics"]
+    },
+    "children": [
+      "info-card#Politics",
+      "rich-text#Politics",
+      "tab-layout#Politics",
+      "newsletter" // ./newsletter.jsonc
+    ]
+  },
+
+  // * Image Search
+  "info-card#Politics": {
+    "props": {
+      "id": "Info-card-politics",
+      "blockClass": ["Politics__Image"],
+      "isFullModeStyle": true,
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "mobileImageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png"
+    }
+  },
+
+  // * Title politics
+  "rich-text#Politics": {
+    "props": {
+      "blockClass": [
+        "Politics__Title",
+        "Title--politics"
+      ],
+      "text": "# Políticas de privacidad"
+    }
+  },
+
+  // * Row politics
+  "tab-layout#Politics": {
+    "props": {
+      "blockClass": ["Politics__Container"]
+    },
+    "children": [
+      "tab-list#Politics__Menu",
+      "tab-content#Politics__Content"
+    ]
+  },
+
+  // * Column politics menu
+  "tab-list#Politics__Menu": {
+    "props": {
+      "blockClass": ["Politics__Menu"]
+    },
+    "children": [
+      "disclosure-layout-group#Politics"
+    ]
+  },
+  // ! Disclosure Layout Group Politics
+  "disclosure-layout-group#Politics": {
+    "props": {
+      "blockClass": ["Disclosure"]
+    },
+    "children": [
+      "disclosure-layout#Faq", // ./faq/FaqGroup.jsonc
+      "disclosure-layout#Compra", // ./compra/CompraGroup.jsonc
+      "disclosure-layout#Venta", // ./venta/VentaGroup.jsonc
+      "disclosure-layout#Devoluciones", // ./devoluciones/DevolucionesGroup.jsonc
+      "disclosure-layout#Habeas" // ./habeas/HabeasGroup.jsonc
+    ]
+  },
+
+  // * Column politics content
+  "tab-content#Politics__Content": {
+    "props": {
+      "blockClass": ["Politics__Content"]
+    },
+    "children": [
+      "tab-content.item#Faq", // ./faq/FaqGroup.jsonc
+      "tab-content.item#Compra", // ./compra/CompraGroup.jsonc
+      "tab-content.item#Venta", // ./venta/VentaGroup.jsonc
+      "tab-content.item#Devoluciones", // ./devoluciones/DevolucionesGroup.jsonc
+      "tab-content.item#Habeas" // ./habeas/HabeasGroup.jsonc
+    ]
+  }
+}

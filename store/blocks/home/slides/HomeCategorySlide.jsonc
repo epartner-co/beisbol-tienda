@@ -1,0 +1,109 @@
+{
+  "flex-layout.col#CategorySlide": {
+    "props": {
+      "blockClass": ["CategorySlide"]
+    },
+    "children": ["slider-layout#CategorySlide"]
+  },
+
+  // * Category Slider Container
+  "slider-layout#CategorySlide": {
+    "props": {
+      "blockClass": ["CategorySlide__Container"],
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "showPaginationDots": "never"
+    },
+    "children": [
+      "info-card#CategorySlide-item-1",
+      "info-card#CategorySlide-item-2",
+      "info-card#CategorySlide-item-3",
+      "info-card#CategorySlide-item-4",
+      "info-card#CategorySlide-item-5"
+    ]
+  },
+
+  // * Category Slide Item 1
+  "info-card#CategorySlide-item-1": {
+    "props": {
+      "blockClass": [
+        "CategorySlide__Item",
+        "CategorySlide__Item--1"
+      ],
+      "id": "CategorySlide-item-1",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://beisbol.vteximg.com.br/arquivos/cuidado-pisos-imagen-home.png",
+      "callToActionText": "Cuidado de los pisos",
+      "callToActionUrl": "#"
+    }
+  },
+
+  // * Category Slide Item 2
+  "info-card#CategorySlide-item-2": {
+    "props": {
+      "blockClass": [
+        "CategorySlide__Item",
+        "CategorySlide__Item--2"
+      ],
+      "id": "CategorySlide-item-2",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://beisbol.vteximg.com.br/arquivos/cuidado-hogar-imagen-home.png",
+      "callToActionText": "Cuidado del hogar",
+      "callToActionUrl": "#"
+    }
+  },
+
+  // * Category Slide Item 3
+  "info-card#CategorySlide-item-3": {
+    "props": {
+      "blockClass": [
+        "CategorySlide__Item",
+        "CategorySlide__Item--3"
+      ],
+      "id": "CategorySlide-item-3",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://beisbol.vteximg.com.br/arquivos/cuidado-ropa-imagen-home.png",
+      "callToActionText": "Cuidado de la ropa",
+      "callToActionUrl": "#"
+    }
+  },
+
+  // * Category Slide Item 4
+  "info-card#CategorySlide-item-4": {
+    "props": {
+      "blockClass": [
+        "CategorySlide__Item",
+        "CategorySlide__Item--4"
+      ],
+      "id": "CategorySlide-item-4",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://beisbol.vteximg.com.br/arquivos/cuidado-calzado-imagen-home.png",
+      "callToActionText": "Cuidado de calzado",
+      "callToActionUrl": "#"
+    }
+  },
+
+  // * Category Slide Item 5
+  "info-card#CategorySlide-item-5": {
+    "props": {
+      "blockClass": [
+        "CategorySlide__Item",
+        "CategorySlide__Item--5"
+      ],
+      "id": "CategorySlide-item-5",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://beisbol.vteximg.com.br/arquivos/cuidado-cocina-imagen-home.png",
+      "callToActionText": "Cuidado de la cocina",
+      "callToActionUrl": "#"
+    }
+  }
+}

@@ -1,0 +1,378 @@
+/* ------------------------------- */
+/* //* Search Page */
+/* ------------------------------- */
+.filterItem--Search__Filter--selected
+  :global(.vtex-checkbox__label) {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.filterItem--Search__Filter--selected
+  :global(.vtex-checkbox__label)::after {
+  content: '\00d7';
+  font-family: 'Urbanist';
+  font-size: 20px;
+}
+.galleryTitle--layout {
+  margin: 0;
+  color: #28508c;
+  font-family: Urbanist;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: left;
+  text-transform: uppercase;
+}
+.orderByText {
+  display: none;
+}
+.orderByButton {
+  margin: 0;
+  padding: 5px 10px;
+  background-color: transparent;
+  border: 0;
+}
+.orderByButton::after {
+  content: '';
+  margin-left: 10px;
+  width: 20px;
+  height: 20px;
+  background-image: url('https://beisbol.vteximg.com.br/arquivos/flecha-icono-search.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.orderByDropdown {
+  padding: 0;
+}
+.filterPopupArrowIcon {
+  display: none;
+}
+.filterPopupButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 10px;
+  height: auto;
+  border: 0;
+}
+.filterPopupButton::after {
+  content: '';
+  margin-left: 10px;
+  width: 20px;
+  height: 20px;
+  background-image: url('https://beisbol.vteximg.com.br/arquivos/filtro-icono-search.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.filterPopupTitle {
+  color: #28508c;
+  font-family: Urbanist;
+  font-size: 20px;
+  font-weight: 600;
+}
+.totalProducts--layout {
+  color: #28508c;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 700;
+}
+.totalProductsMessage {
+  color: #28508c;
+  font-weight: 400;
+}
+.buttonShowMore--layout {
+  padding: 0 0 29px;
+}
+.buttonShowMore :global(.vtex-button) {
+  background-color: #28508c;
+  border: 1px solid #28508c;
+  border-radius: 100px;
+  transition: 0.3s;
+}
+.buttonShowMore :global(.vtex-button):hover {
+  background-color: #183054;
+  border-color: #183054;
+}
+.buttonShowMore :global(.vtex-button__label) {
+  font-size: 0;
+}
+.buttonShowMore
+  :global(.vtex-button__label)::before {
+  content: 'Ver más';
+  padding: 12px 25px !important;
+  font-family: Urbanist;
+  font-size: 15px;
+  font-weight: 600;
+}
+.filterButtonsBox {
+  flex-direction: row-reverse;
+}
+.filterClearButtonWrapper {
+  padding-left: 5px;
+  padding-right: 10px;
+}
+.filterApplyButtonWrapper {
+  padding-left: 10px;
+  padding-right: 5px;
+}
+.filterApplyButtonWrapper :global(.vtex-button) {
+  color: white;
+  background-color: #28508c;
+  font-family: 'Urbanist';
+  border: 1px solid #28508c;
+  border-radius: 100px;
+}
+.filterClearButtonWrapper :global(.vtex-button) {
+  color: white;
+  background-color: #8f8f8f;
+  font-family: 'Urbanist';
+  border: 1px solid #8f8f8f;
+  border-radius: 100px;
+}
+.filterAccordionBreadcrumbs {
+  margin: 0 20px;
+  padding: 0px;
+  width: auto;
+  border-bottom: 1px solid #28508c;
+}
+.filterBreadcrumbsText--Search__Filter {
+  color: #28508c;
+  font-family: Urbanist;
+  font-size: 23px;
+  font-weight: 700;
+}
+.accordionFilterContainer--Search__Filter {
+  padding: 0 20px;
+}
+.filterAccordionItemBox--Search__Filter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  border-bottom: 1px solid #00168980;
+}
+.filterAccordionItemBox--Search__Filter::after {
+  content: '';
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+  background-image: url('https://beisbol.vteximg.com.br/arquivos/flecha-icono-search.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.accordionFilterContent--Search__Filter {
+  padding: 5px;
+}
+.accordionFilterItemTitle--Search__Filter {
+  color: #28508c;
+  font-family: Urbanist;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.accordionFilterItemIcon--Search__Filter {
+  display: none;
+}
+.accordionFilter .ReactCollapse--collapse .pl8 {
+  padding: 0 20px;
+}
+.accordionFilterOpen--Search__Filter {
+  padding: 0;
+}
+.accordionFilterOpen--Search__Filter
+  .filterAccordionItemBox {
+  padding: 20px 0 0;
+  min-height: 0;
+  border-bottom: 0;
+}
+.filterAccordionItemBox
+  :global(.vtex-checkbox__label) {
+  margin-left: 10px;
+  color: #0891d0;
+  font-family: Urbanist;
+  font-size: 16px;
+  font-weight: 400;
+}
+.accordionFilterItemTag--Search__Filter {
+  margin-left: 35px;
+}
+.accordionFilterItemTag--Search__Filter
+  :global(.vtex-tag) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6px;
+  min-width: 28px;
+  min-height: 25px;
+  background-color: #28508c;
+  border-radius: 100%;
+  font-family: Urbanist;
+  font-size: 14px;
+  line-height: normal;
+}
+
+/* ------------------------------- */
+/* //? Media queries */
+/* ------------------------------- */
+@media (min-width: 640px) {
+  .sidebar {
+    width: 18rem;
+  }
+  .orderByButton .filterPopupTitle {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 300;
+  }
+  .orderByText {
+    display: block;
+    color: #28508c;
+    font-family: Urbanist;
+    font-size: 20px;
+    font-weight: 700;
+    margin-right: 10px;
+  }
+  .orderByText::after {
+    content: ':';
+  }
+}
+
+@media (min-width: 1200px) {
+  .gallery {
+    padding: 0;
+  }
+  .totalProducts--layout {
+    padding: 0 15px;
+    text-align: start;
+  }
+  .totalProductsMessage {
+    text-transform: lowercase;
+  }
+  .filterIcon--Search__Filter {
+    color: #28508c;
+  }
+  .orderByText {
+    color: #0891d0;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: capitalize;
+  }
+  .orderByButton {
+    margin: 7px 0;
+    border: 1px solid #28508c;
+    border-radius: 5px;
+  }
+  .filterPopupTitle {
+    padding: 5px;
+    text-transform: capitalize;
+    font-size: 18px !important;
+    font-weight: 400;
+  }
+  .filterMessage--Search__Filter {
+    padding-left: 10px;
+    color: #28508c;
+    font-family: Urbanist;
+    font-size: 20px;
+    font-weight: 900;
+  }
+  .filterSelected--Search__Filter
+    .filterTitle--Search__Filter {
+    display: none;
+  }
+  .filterSelected--Search__Filter {
+    padding: 5px;
+  }
+  .filter__container--selectedFilters {
+    border: 0;
+  }
+  .filter__container--Search__Filter {
+    margin-bottom: 10px;
+    border: 0;
+  }
+  .filter__container--Search__Filter--title {
+    border-bottom: 1px solid #28508c;
+  }
+  .filterTitle--Search__Filter {
+    color: #28508c;
+    font-family: Urbanist;
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .filterAvailable--Search__Filter {
+    padding: 12px 10px;
+    background-color: #f4f4f4;
+  }
+  .filterItem--Search__Filter
+    :global(.vtex-checkbox__label) {
+    padding-left: 10px;
+  }
+  .filterItem--Search__Filter--selected
+    :global(.vtex-checkbox__label) {
+    color: #0891d0;
+    font-family: Urbanist;
+    font-size: 15px;
+    font-weight: 400;
+    cursor: pointer;
+  }
+  .filterItem--Search__Filter--selected
+    :global(.vtex-checkbox__container) {
+    display: none;
+  }
+  .filterContent--Search__Filter {
+    padding-top: 10px;
+  }
+  .filterItem--Search__Filter {
+    font-family: Urbanist;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .filterContent--Search__Filter
+    .filterItem--Search__Filter
+    :global(.vtex-checkbox__label) {
+    color: #0891d0;
+  }
+  .filterContent--Search__Filter
+    .filterItem--Search__Filter--selected {
+    font-family: Urbanist;
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .filterContent--Search__Filter
+    .filterItem--Search__Filter--selected
+    :global(.vtex-checkbox__label) {
+    color: #28508c;
+    font-weight: 700;
+  }
+  .filterContent--Search__Filter
+    .filterItem--Search__Filter
+    :global(.vtex-checkbox__container) {
+    display: none;
+  }
+}
+/* ------------------------------- */
+
+.galleryLayoutOptionButton {
+  background-color: #f0f0f0;
+  color: #3f3f40;
+  padding: 0.375rem 0.75rem 0.375rem 0.75rem;
+}
+
+.galleryLayoutOptionButton--selected {
+  background-color: #3f3f40;
+  color: #ffffff;
+}
+
+.galleryLayoutSwitcher {
+  border-radius: 4px 4px 4px 4px;
+  justify-content: center;
+  overflow: hidden;
+  width: auto !important;
+  align-self: center;
+}
+
+.galleryItem--list {
+  border-bottom: 1px #e7e9ee solid;
+}

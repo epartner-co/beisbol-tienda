@@ -1,0 +1,65 @@
+{
+  "flex-layout.col#TopSlide": {
+    "props": {
+      "blockClass": ["TopSlide"]
+    },
+    "children": ["slider-layout#TopSlide"]
+  },
+
+  // * Slider Container
+  "slider-layout#TopSlide": {
+    "props": {
+      "blockClass": ["TopSlide__Container"],
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true
+    },
+    "children": [
+      "info-card#TopSlide-item-1",
+      "info-card#TopSlide-item-2"
+    ]
+  },
+
+  // * Slide Item 1
+  "info-card#TopSlide-item-1": {
+    "props": {
+      "blockClass": [
+        "TopSlide__Item",
+        "TopSlide__Item--1"
+      ],
+      "id": "TopSlide-item-1",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "https://beisbol.vteximg.com.br/arquivos/banner-principal-desktop.png",
+      "mobileImageUrl": "https://beisbol.vteximg.com.br/arquivos/mobile-banner-principal.png",
+      "headline": "Nuevo producto",
+      "subhead": "Suavidad y fragancia",
+      "callToActionText": "Comprar Ya",
+      "callToActionUrl": "#",
+      "textAlignment": "center"
+    }
+  },
+
+  // * Slide Item 2
+  "info-card#TopSlide-item-2": {
+    "props": {
+      "blockClass": [
+        "TopSlide__Item",
+        "TopSlide__Item--2"
+      ],
+      "id": "TopSlide-item-2",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "https://beisbol.vteximg.com.br/arquivos/banner-principal-desktop.png",
+      "mobileImageUrl": "https://beisbol.vteximg.com.br/arquivos/mobile-banner-principal.png",
+      "headline": "Suavidad y fragancia",
+      "subhead": "Nuevo producto",
+      "callToActionText": "Comprar Ya",
+      "callToActionUrl": "#",
+      "textAlignment": "center"
+    }
+  }
+}

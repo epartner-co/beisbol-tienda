@@ -1,0 +1,7 @@
+/* ------------------------------- */
+/* //* Header */
+/* ------------------------------- */
+.wrapper--stuck.flexRowContent--main-header-mobile {
+  backdrop-filter: blur(0);
+}
+/* ------------------------------- */

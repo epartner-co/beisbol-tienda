@@ -1,0 +1,278 @@
+/* ------------------------------- */
+/* //* Header */
+/* ------------------------------- */
+.userGreeting {
+  display: none;
+}
+.userName {
+  display: none;
+}
+.menuLinks :global(.vtex-account_menu-link) {
+  padding-left: 0;
+  font-family: Urbanist;
+  font-size: 22px;
+  font-weight: 700;
+  padding-top: 0;
+  border-bottom: 1px solid #0016894d;
+  color: #0891d0;
+}
+.menuLinks
+  :global(.vtex-account_menu-link)[href='#/profile'] {
+  color: #28508c;
+}
+.menu {
+  padding: 20px;
+}
+.menuLink {
+  padding-left: 0;
+  font-size: 0;
+  padding-top: 0;
+}
+.menuLink::before {
+  padding-left: 0;
+  font-family: Urbanist;
+  font-size: 22px;
+  font-weight: 700;
+  padding-top: 0;
+  color: #0891d0;
+  content: 'Cerrar sesion';
+}
+.boxContainer {
+  background-color: #f8f8f8;
+  border: 0;
+}
+.dataEntryLabel {
+  font-family: Urbanist;
+  font-size: 17px;
+  font-weight: 700;
+  color: #28508c;
+}
+.firstNameSubContainer {
+  margin-bottom: 20px;
+}
+.dataEntryChildren {
+  font-family: Urbanist;
+  font-size: 16px;
+  font-weight: 400;
+  color: #0891d0;
+}
+.newsletterContainerTitle {
+  font-size: 0;
+  margin-bottom: 10px;
+}
+.newsletterContainerTitle::before {
+  font-family: Urbanist;
+  font-size: 20px;
+  font-weight: 700;
+  content: 'Newsletter';
+  color: #28508c;
+}
+.newsletterContainerMessage {
+  font-size: 0;
+}
+.newsletterContainerMessage::before {
+  font-family: Urbanist;
+  font-size: 16px;
+  font-weight: 400;
+  color: #0891d0;
+  content: '¿Desea recibir emails promocionales?';
+}
+.passwordBox :global(.vtex-checkbox__label) {
+  font-size: 0;
+}
+.passwordBox
+  :global(.vtex-checkbox__label)::before {
+  font-family: Urbanist;
+  font-size: 16px;
+  font-weight: 400;
+  color: #0891d0;
+  content: 'Deseo recibir newsletter';
+}
+.boxContainerFooter :global(.vtex-button__label) {
+  color: #28508c;
+  font-family: Urbanist;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.boxContainerFooter
+  :global(.vtex-button__label)::before {
+  content: '';
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+  background-image: url('https://beisbol.vteximg.com.br/arquivos/icon-edit-account.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+:global(.vtex-account__page)
+  :global(.vtex-button)
+  :global(.ml3.ttu.t-action--small) {
+  font-family: Urbanist;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+}
+:global(.vtex-account__page)
+  :global(.vtex-pageHeader__title) {
+  font-family: Urbanist;
+  font-size: 50px;
+  font-weight: 700;
+  color: #28508c;
+}
+:global(.vtex-account__orders-list),
+:global(.vtex-account__orders-list),
+:global(.vtex-account__cards-list),
+.addressList {
+  padding: 50px 20px;
+}
+:global(.vtex-account__cards-list)
+  :global(.t-heading-4),
+:global(.vtex-account__orders-list)
+  :global(.t-heading-4),
+.addressList :global(.t-heading-4) {
+  font-family: Urbanist;
+  font-size: 25px;
+  font-weight: 400;
+  color: #0891d0;
+}
+:global(.vtex-account__cards-list)
+  :global(.t-heading-4)
+  :global(.c-on-base),
+:global(.vtex-account__orders-list)
+  :global(.t-heading-4)
+  :global(.c-on-base) {
+  color: #0891d0;
+}
+:global(.vtex-pageHeader__container)
+  :global(.vtex-pageHeader__children) {
+  margin-top: 20px;
+}
+:global(.vtex-pageHeader__container)
+  :global(.vtex-pageHeader__children)
+  :global(.vtex-button) {
+  background-color: #28508c;
+  border-color: #28508c;
+  border-radius: 100px;
+  padding: 5px 23px;
+}
+:global(.vtex-pageHeader__container)
+  :global(.vtex-pageHeader__children)
+  :global(.vtex-button__label) {
+  font-family: Urbanist;
+  font-size: 15px;
+  font-weight: 400;
+  color: white;
+}
+:global(.vtex_my-authentication_box_container) {
+  background-color: #f8f8f8;
+  border: 0;
+}
+:global(.vtex-my-authentication-1-x-maskedPassword_title) {
+  font-family: Urbanist;
+  font-size: 20px;
+  font-weight: 700;
+  color: #28508c;
+}
+:global(.vtex-my-authentication-1-x-loginSessionsBox_title) {
+  font-family: Urbanist;
+  font-size: 20px;
+  font-weight: 700;
+  color: #28508c;
+}
+:global(.vtex-my-authentication-1-x-box_footer) {
+  text-align: end;
+}
+:global(.vtex-my-authentication-1-x-maskedPassword_content) {
+  font-family: Urbanist;
+  font-size: 15px;
+  font-weight: 300;
+  color: #0891d0;
+}
+:global(.vtex-my-authentication-1-x-loginSessionsBox_content) {
+  font-family: Urbanist;
+  font-size: 15px;
+  font-weight: 300;
+  color: #0891d0;
+}
+:global(.vtex-my-authentication-1-x-box_footer)
+  :global(.vtex-button__label),
+:global(.vtex-my-authentication-1-x-maskedPassword_content)
+  :global(.vtex-button__label) {
+  color: #28508c;
+  font-family: Urbanist;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+:global(.vtex-my-authentication-1-x-box_footer)
+  :global(.vtex-button__label)::before,
+:global(.vtex-my-authentication-1-x-maskedPassword_content)
+  :global(.vtex-button__label)::before {
+  content: '';
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+  background-image: url('https://beisbol.vteximg.com.br/arquivos/icon-edit-account.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+:global(.vtex-modal__confirmation)
+  :global(.mr4)
+  :global(.vtex-button) {
+  font-family: Urbanist;
+  font-size: 16px;
+  font-weight: 700;
+  color: #0891d0;
+}
+:global(.vtex-modal__confirmation)
+  > :global(.vtex-button) {
+  font-family: Urbanist;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: #28508c;
+  border-color: #28508c;
+}
+:global(.vtex-modal__overlay)
+  :global(.t-heading-5) {
+  font-family: Urbanist;
+  font-size: 20px;
+  font-weight: 700;
+  color: #28508c;
+}
+:global(.vtex__icon-close) {
+  color: #28508c;
+}
+
+/* ------------------------------- */
+/* //? Media Queries */
+/* ------------------------------- */
+@media (min-width: 1200px) {
+  .menuLinks :global(.vtex-account_menu-link) {
+    border: 0;
+  }
+  .menuLinks
+    :global(.vtex-account_menu-link)[href='#/profile'] {
+    color: #0891d0;
+  }
+  .menuLinks
+    :global(.vtex-account_menu-link.b--action-primary) {
+    color: #28508c;
+  }
+  :global(.vtex-account__page)
+    :global(.vtex-pageHeader__title) {
+    text-align: end;
+  }
+  :global(.vtex-pageHeader__container)
+    :global(.c-on-base.flex.flex-wrap.flex-row.justify-between.mt0) {
+    align-items: center;
+  }
+  :global(.vtex-pageHeader__container)
+    :global(.vtex-pageHeader__children) {
+    margin-top: 0;
+    margin-left: 15px;
+  }
+}
+/* ------------------------------- */

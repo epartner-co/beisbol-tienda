@@ -1,0 +1,403 @@
+{
+  "footer": {
+    "blocks": [
+      "footer-layout.desktop",
+      "footer-layout.mobile"
+    ]
+  },
+
+  // * Promotions section
+  // ! Title promotions
+  "rich-text#TitlePromotions": {
+    "props": {
+      "blockClass": [
+        "FooterTitle",
+        "FooterTitle--promotions"
+      ],
+      "text": "Fechas promocionales"
+    }
+  },
+  // ! Promotion text 1
+  "rich-text#Promotion1": {
+    "props": {
+      "blockClass": [
+        "Footer__Text",
+        "Footer__Text--promotion"
+      ],
+      "text": "[Cyber Days](#)"
+    }
+  },
+  // ! Promotion text 2
+  "rich-text#Promotion2": {
+    "props": {
+      "blockClass": [
+        "Footer__Text",
+        "Footer__Text--promotion"
+      ],
+      "text": "[Black Friday](#)"
+    }
+  },
+
+  // * Socials section
+  // ! Title socials
+  "rich-text#TitleSocials": {
+    "props": {
+      "blockClass": [
+        "FooterTitle",
+        "FooterTitle--socials"
+      ],
+      "text": "Redes sociales"
+    }
+  },
+  // ! Socials images container
+  "flex-layout.col#FooterSocials": {
+    "props": {
+      "blockClass": ["Footer-Promotional__Images"]
+    },
+    "children": [
+      "image#Facebook",
+      "image#Instagram",
+      "image#Youtube"
+      // "image#Twitter"
+    ]
+  },
+  // ! Facebook Icon
+  "image#Facebook": {
+    "props": {
+      "blockClass": [
+        "Footer__image",
+        "Footer__image--facebook"
+      ],
+      "src": "https://beisbol.vteximg.com.br/arquivos/facebook-icono-footer.png",
+      "link": {
+        "url": "#",
+        "label": "Facebook",
+        "newTab": true
+      }
+    }
+  },
+  // ! Instagram Icon
+  "image#Instagram": {
+    "props": {
+      "blockClass": [
+        "Footer__image",
+        "Footer__image--instagram"
+      ],
+      "src": "https://beisbol.vteximg.com.br/arquivos/instagram-icono-footer.png",
+      "link": {
+        "url": "#",
+        "label": "Instagram",
+        "newTab": true
+      }
+    }
+  },
+  // ! Twitter Icon
+  "image#Twitter": {
+    "props": {
+      "blockClass": [
+        "Footer__image",
+        "Footer__image--Twitter"
+      ],
+      "src": "https://beisbol.vteximg.com.br/arquivos/icon-twitter.png",
+      "link": {
+        "url": "#",
+        "label": "Twitter",
+        "newTab": true
+      }
+    }
+  },
+  // ! Youtube Icon
+  "image#Youtube": {
+    "props": {
+      "blockClass": [
+        "Footer__image",
+        "Footer__image--Youtube"
+      ],
+      "src": "https://beisbol.vteximg.com.br/arquivos/youtube-icono-footer.png",
+      "link": {
+        "url": "#",
+        "label": "Youtube",
+        "newTab": true
+      }
+    }
+  },
+
+  // * Payments Section
+  // ! Title Payments
+  "rich-text#TitlePayments": {
+    "props": {
+      "blockClass": [
+        "FooterTitle",
+        "FooterTitle--payments"
+      ],
+      "text": "Medios de pago"
+    }
+  },
+  // ! Payments image
+  "image#Payments": {
+    "props": {
+      "blockClass": [
+        "Footer__image",
+        "Footer__image--payments"
+      ],
+      "src": "https://beisbol.vteximg.com.br/arquivos/medios-pago-footer.png"
+    }
+  },
+
+  // * Development section
+  // ! Title Development
+  "rich-text#Development": {
+    "props": {
+      "blockClass": [
+        "FooterTitle",
+        "FooterTitle--development"
+      ],
+      "text": "Desarrollado por"
+    }
+  },
+  // ! Development image
+  "image#Development": {
+    "props": {
+      "blockClass": [
+        "Footer__image",
+        "Footer__image--development"
+      ],
+      "src": "https://beisbol.vteximg.com.br/arquivos/epartner-icono-footer.png",
+      "link": {
+        "url": "https://digitalepartner.com/",
+        "label": "ePartner",
+        "newTab": true
+      }
+    }
+  },
+
+  // ! Technology image
+  "image#Technology": {
+    "props": {
+      "blockClass": [
+        "Footer__image",
+        "Footer__image--technology"
+      ],
+      "src": "https://beisbol.vteximg.com.br/arquivos/vtex-icono-footer.png",
+      "link": {
+        "url": "https://vtex.com/co-es",
+        "label": "VTEX",
+        "newTab": true
+      }
+    }
+  },
+
+  // * CopyRight Section
+  "rich-text#CopyRight": {
+    "props": {
+      "blockClass": ["CopyRight"],
+      "text": "Copyright Beisbol 2021"
+    }
+  },
+
+  // * Politics Section
+  // ! Title Politics
+  "rich-text#TitlePolitics": {
+    "props": {
+      "blockClass": [
+        "FooterTitle",
+        "FooterTitle--politics"
+      ],
+      "text": "Políticas"
+    }
+  },
+  // ! Terms and conditions
+  "rich-text#Terms": {
+    "props": {
+      "blockClass": [
+        "Footer__Text",
+        "Footer__Text--terms"
+      ],
+      "text": "[Términos y condiciones](#)"
+    }
+  },
+  // ! Privacy politics
+  "rich-text#PrivacyPolitics": {
+    "props": {
+      "blockClass": [
+        "Footer__Text",
+        "Footer__Text--privacy-politics"
+      ],
+      "text": "[Política de Privacidad y \nProtección de Datos](#)"
+    }
+  },
+  // ! Cookies politics
+  "rich-text#Cookies": {
+    "props": {
+      "blockClass": [
+        "Footer__Text",
+        "Footer__Text--cookies"
+      ],
+      "text": "[Política de Cookies](#)"
+    }
+  },
+  // ! Anti-Corruption politics
+  "rich-text#Corruption": {
+    "props": {
+      "blockClass": [
+        "Footer__Text",
+        "Footer__Text--corruption"
+      ],
+      "text": "[Política Anticorrupción](#)"
+    }
+  },
+
+  // * Institutional Section
+  // ! Title Institutional
+  "rich-text#TitleInstitutional": {
+    "props": {
+      "blockClass": [
+        "FooterTitle",
+        "FooterTitle--institutional"
+      ],
+      "text": "¿Quienes somos?"
+    }
+  },
+  // ! Company
+  "rich-text#Company": {
+    "props": {
+      "blockClass": [
+        "Footer__Text",
+        "Footer__Text--company"
+      ],
+      "text": "[Sobre la empresa](#)"
+    }
+  },
+  // ! History
+  "rich-text#History": {
+    "props": {
+      "blockClass": [
+        "Footer__Text",
+        "Footer__Text--history"
+      ],
+      "text": "[Historia](#)"
+    }
+  },
+  // ! Works
+  "rich-text#Works": {
+    "props": {
+      "blockClass": [
+        "Footer__Text",
+        "Footer__Text--works"
+      ],
+      "text": "[Trabaja con nosotros](#)"
+    }
+  },
+
+  // * Client attention Section
+  // ! Title Client
+  "rich-text#TitleClient": {
+    "props": {
+      "blockClass": [
+        "FooterTitle",
+        "FooterTitle--client"
+      ],
+      "text": "Servicio al Cliente"
+    }
+  },
+  // ! Number Client
+  "rich-text#NumberClient": {
+    "props": {
+      "blockClass": [
+        "Footer__Text",
+        "Footer__Text--number"
+      ],
+      "text": "[018000 180382](#)"
+    }
+  },
+  // ! Attention Mail
+  "rich-text#Mail": {
+    "props": {
+      "blockClass": [
+        "Footer__Text",
+        "Footer__Text--mail"
+      ],
+      "text": "[servicioalcliente@beisbol.com](mailto:servicioalcliente@beisbol.com)"
+    }
+  },
+
+  // * Support Client Section
+  // ! Title Client
+  "rich-text#TitleSupport": {
+    "props": {
+      "blockClass": [
+        "FooterTitle",
+        "FooterTitle--support"
+      ],
+      "text": "Soporte y Servicio"
+    }
+  },
+  // ! Advice
+  "rich-text#Advice": {
+    "props": {
+      "blockClass": [
+        "Footer__Text",
+        "Footer__Text--advice"
+      ],
+      "text": "[Asesoramiento](#)"
+    }
+  },
+  // ! Contact
+  "rich-text#Contact": {
+    "props": {
+      "blockClass": [
+        "Footer__Text",
+        "Footer__Text--contact"
+      ],
+      "text": "[Contáctanos](#)"
+    }
+  },
+  // ! Warranty
+  "rich-text#Warranty": {
+    "props": {
+      "blockClass": [
+        "Footer__Text",
+        "Footer__Text--warranty"
+      ],
+      "text": "[Política de Garantía](#)"
+    }
+  },
+
+  // * Terms  Section
+  // ! Title Terms
+  "rich-text#TitleTerms": {
+    "props": {
+      "blockClass": [
+        "FooterTitle",
+        "FooterTitle--terms"
+      ],
+      "text": "Términos y condiciones"
+    }
+  },
+  // ! Terms Text
+  "rich-text#TermsText": {
+    "props": {
+      "blockClass": [
+        "Footer__Text",
+        "Footer__Text--terms-2"
+      ],
+      "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+    }
+  },
+
+  // ! Company image
+  "image#Logo": {
+    "props": {
+      "blockClass": [
+        "Footer__image",
+        "Footer__image--company"
+      ],
+      "src": "https://beisbol.vteximg.com.br/arquivos/beisbol-logo-footer.png",
+      "link": {
+        "url": "/",
+        "label": "Beisbol",
+        "newTab": false
+      }
+    }
+  }
+}

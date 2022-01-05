@@ -1,0 +1,20 @@
+/* ------------------------------- */
+/* //* Menu */
+/* ------------------------------- */
+.closeIconContainer {
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+}
+.closeIconContainer::before {
+  content: 'Menú';
+  font-family: Urbanist;
+  font-size: 25px;
+  font-weight: 700;
+  color: #28508c;
+}
+.closeIconButton {
+  color: #28508c;
+}
+
+/* ------------------------------- */

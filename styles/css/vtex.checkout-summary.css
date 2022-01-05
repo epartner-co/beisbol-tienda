@@ -1,0 +1,31 @@
+/* ------------------------------- */
+/* //* MiniCart V2 Component */
+/* ------------------------------- */
+.summarySmallContent {
+  color: #28508c;
+  font-family: Urbanist;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: left;
+}
+.summarySmallDisclaimer {
+  font-size: 0;
+}
+.summarySmallDisclaimer::before {
+  content: 'Envío e impuestos calculados en el carrito';
+  color: #0891d0;
+  font-family: Urbanist;
+  font-size: 14px;
+  font-weight: 300;
+  text-align: left;
+}
+.summaryItemContainer {
+  color: #28508c;
+}
+.summaryItemLabel {
+  font-weight: bold;
+}
+.summaryItemPrice {
+  font-weight: bold;
+}
+/* ------------------------------- */

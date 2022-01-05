@@ -1,0 +1,22 @@
+{
+  "header": {
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+  "header.full": {
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+
+  // * Static message
+  "rich-text#top-text": {
+    "props": {
+      "blockClass": ["Header-top-text"],
+      "text": "ENVIÓ GRATIS POR COMPRAS MAYORES DE $$$$. (APLICAN TÉRMINOS Y CONDICIONES)"
+    }
+  }
+}

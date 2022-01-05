@@ -1,0 +1,32 @@
+/* ------------------------------- */
+/* //* Home */
+/* ------------------------------- */
+/* ! Vitrina */
+.buttonDataContainer--summary {
+  font-family: Urbanist;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 600;
+  text-align: center;
+}
+.buttonDataContainer--summary
+  :global(.vtex-button__label) {
+  padding: 10px !important;
+}
+/* ------------------------------- */
+/* //* Product Page */
+/* ------------------------------- */
+.buttonText {
+  font-family: 'Urbanist';
+  font-size: 18px;
+}
+/* ------------------------------- */
+/* //? Medias Query */
+/* ------------------------------- */
+@media (min-width: 1200px) {
+  /* ! Vitrina */
+  .buttonText--summary {
+    font-size: 15px;
+  }
+}
+/* ------------------------------- */

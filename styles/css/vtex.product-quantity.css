@@ -1,0 +1,70 @@
+/* ------------------------------- */
+/* //* Product page */
+/* ------------------------------- */
+.quantitySelectorTitle {
+  margin-right: 25px;
+  margin-bottom: 0;
+  color: #0891d0;
+  font-family: Urbanist;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: left;
+  text-transform: capitalize;
+}
+.quantitySelectorContainer {
+  flex-direction: row;
+  align-items: center;
+}
+.quantitySelectorStepper
+  :global(.vtex-numeric-stepper__input) {
+  margin-right: 5px;
+  width: 45px !important;
+  height: 45px;
+  color: #28508c;
+  background-color: white;
+  border-radius: 100% !important;
+  border: 1px solid #c8c8c8;
+  font-family: Urbanist;
+  font-size: 25px;
+  font-weight: 400;
+}
+.quantitySelectorStepper
+  :global(.vtex-numeric-stepper__plus-button),
+.quantitySelectorStepper
+  :global(.vtex-numeric-stepper__minus-button) {
+  border-radius: 100% !important;
+  width: 45px !important;
+  height: 45px;
+  border: 1px solid #c8c8c8;
+  background-color: white;
+  margin-right: 5px;
+}
+.quantitySelectorStepper
+  :global(.vtex-numeric-stepper__plus-button__text),
+.quantitySelectorStepper
+  :global(.vtex-numeric-stepper__minus-button__text) {
+  font-family: Urbanist;
+  font-size: 25px;
+  font-weight: 400;
+  color: #28508c;
+}
+
+@media (min-width: 640px) {
+  /* ! Product page */
+  .quantitySelectorContainer {
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* ! Product page */
+  .quantitySelectorContainer {
+    flex-direction: column;
+    align-items: baseline;
+  }
+  .quantitySelectorTitle {
+    margin-bottom: 10px;
+  }
+}
+/* ------------------------------- */

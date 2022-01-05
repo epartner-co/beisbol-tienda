@@ -1,0 +1,559 @@
+/* ------------------------------- */
+/* //* Header */
+/* ------------------------------- */
+.container--Header-top-text {
+  background-color: #28508c;
+}
+.wrapper--Header-top-text {
+  width: 100%;
+}
+.paragraph--Header-top-text {
+  color: white;
+  font-family: Urbanist;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  text-align: center;
+}
+.link--Header-top-text {
+  color: #28508c;
+  text-decoration: none;
+}
+.link--Header-top-text:hover {
+  text-decoration: underline;
+}
+
+/* ------------------------------- */
+/* //* Menu */
+/* ------------------------------- */
+.paragraph--Category__Title {
+  margin: 0;
+  color: #28508c;
+  font-family: Urbanist;
+  font-size: 20px;
+  font-weight: 700;
+}
+.container--Category__Title {
+  justify-content: space-between;
+  align-items: center;
+}
+.container--Category__Title::after {
+  content: '';
+  margin-left: 10px;
+  width: 20px;
+  height: 20px;
+  background-image: url('https://beisbol.vteximg.com.br/arquivos/flecha-icono-search.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+:global(.vtex-disclosure-layout-1-x-trigger--Disclosure__Trigger--Category--visible)
+  .container--Category__Title::after {
+  transform: rotate(180deg);
+}
+
+/* ------------------------------- */
+/* //* Footer */
+/* ------------------------------- */
+.wrapper--FooterTitle {
+  width: 100%;
+}
+.paragraph--FooterTitle {
+  color: white;
+  font-family: Urbanist;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+  text-transform: capitalize;
+}
+.paragraph--FooterTitle--institutional,
+.paragraph--FooterTitle--politics,
+.paragraph--FooterTitle--support,
+.paragraph--FooterTitle--client,
+.paragraph--FooterTitle--terms {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  margin: 8px 0px;
+  text-align: left;
+}
+.paragraph--FooterTitle--institutional::after,
+.paragraph--FooterTitle--politics::after,
+.paragraph--FooterTitle--support::after,
+.paragraph--FooterTitle--client::after,
+.paragraph--FooterTitle--terms::after {
+  content: '';
+  width: 20px;
+  height: 20px;
+  /* TODO: Change icons in footer with white label */
+  background-image: url('https://beisbol.vteximg.com.br/arquivos/flecha-abajo-footer.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.wrapper--Footer__Text {
+  width: 100%;
+}
+.paragraph--Footer__Text {
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: white;
+  font-family: Urbanist;
+  font-size: 17px;
+  font-style: normal;
+  text-align: center;
+}
+.paragraph--Footer__Text--terms-2 {
+  font-size: 12px;
+}
+.link--Footer__Text {
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.link--Footer__Text:hover {
+  color: white;
+}
+.paragraph--FooterTitle--development {
+  margin-bottom: 0;
+}
+.paragraph--FooterTitle--technology {
+  margin-bottom: 0;
+}
+.wrapper--CopyRight {
+  margin-top: 20px;
+  width: 100%;
+  background-color: #c4c4c4;
+  text-align: center;
+}
+.paragraph--CopyRight {
+  color: black;
+  margin: 10px;
+  font-family: Urbanist;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
+  text-align: center;
+}
+/* ------------------------------- */
+/* //* Home */
+/* ------------------------------- */
+/* ! Home information  */
+.wrapper--Information__item {
+  width: 100%;
+}
+.paragraph--Information__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 25px 0;
+  width: 100%;
+  color: #28508c;
+  font-family: Urbanist;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.paragraph--Information__item::before {
+  content: '';
+  margin-right: 5px;
+  width: 20px;
+  height: 20px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.paragraph--Information__item--1::before {
+  background-image: url('https://beisbol.vteximg.com.br/arquivos/icono-garantia de-marca.png');
+}
+.paragraph--Information__item--2::before {
+  background-image: url('https://beisbol.vteximg.com.br/arquivos/icono-formas-de-pago.png');
+}
+.paragraph--Information__item--3::before {
+  background-image: url('https://beisbol.vteximg.com.br/arquivos/icono-envios-nacionales.png');
+}
+.paragraph--Information__item--4::before {
+  background-image: url('https://beisbol.vteximg.com.br/arquivos/icono-compra-garantizada.png');
+}
+
+/* ! Vitrina 1 */
+.heading--Home__Title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #28508c;
+  font-family: Urbanist;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+.container--Home__Title {
+  justify-content: center;
+}
+/* .heading--Home__Title::before,
+.heading--Home__Title::after {
+  content: '';
+  background-image: url('https://beisbol.vteximg.com.br/arquivos/burbujas-titulos.png');
+  background-size: 100%;
+  width: 50px;
+  height: 50px;
+  background-repeat: no-repeat;
+  background-position: center;
+} */
+.heading--Home__Title::before {
+  margin-right: 10px;
+  transform: rotate(180deg);
+}
+.heading--Home__Title::after {
+  margin-left: 10px;
+}
+
+/* ! Banners Bottom */
+.wrapper--Title--mom {
+  width: 100%;
+}
+.heading--Title--mom {
+  margin: 0;
+  margin-top: 40px;
+  padding: 20px 0;
+  width: 100%;
+  color: white;
+  background-color: #a056ff;
+}
+.heading--Title--mom::before,
+.heading--Title--mom::after {
+  display: none;
+}
+
+/* ------------------------------- */
+/* //* Product page*/
+/* ------------------------------- */
+.headingLevel2--Title--most-selling {
+  margin-top: 70px;
+}
+
+/* ------------------------------- */
+/* //* Politics page*/
+/* ------------------------------- */
+.headingLevel1--Politics__Title {
+  font-family: Urbanist;
+  font-size: 52px;
+  font-weight: 700;
+  color: #001689;
+  margin: 20px 0 50px;
+  text-transform: uppercase;
+}
+.container--Politics__Title {
+  padding: 0 15px;
+}
+.wrapper--Politics__Group-Title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: start;
+  padding: 0 25px;
+  width: 100%;
+  color: white;
+}
+.wrapper--Politics__Group-Title::after {
+  content: '';
+  width: 25px;
+  height: 25px;
+  /* TODO: Change store URL resource */
+  background-image: url('https://epartner.vteximg.com.br/arquivos/arrow-icon-politics.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.paragraph--Politics__Group-Title {
+  margin: 12px 0;
+  font-family: Urbanist;
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.paragraph--Politics__Text {
+  margin: 0;
+}
+.container--Politics__Text {
+  color: #0891d0;
+  font-family: 'Urbanist';
+  font-size: 18px;
+}
+
+/* ------------------------------- */
+/* //* About us page*/
+/* ------------------------------- */
+.paragraph--About__Title {
+  margin: 17px auto 0;
+  width: 90%;
+  color: #28508c;
+  font-family: Urbanist;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 49px;
+  text-transform: uppercase;
+}
+.paragraph--About__Text {
+  margin-bottom: 0;
+  color: #0891d0;
+  font-family: 'Urbanist';
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 20px;
+}
+.headingLevel4--About__Text {
+  margin: 17px 0px 0;
+  color: #28508c;
+  font-family: Urbanist;
+  font-size: 22px;
+  font-weight: 700;
+}
+.wrapper--About__Title--Mision,
+.wrapper--About__Title--Vision {
+  width: 100%;
+}
+.paragraph--About__Title--Mision,
+.paragraph--About__Title--Vision {
+  margin: 0 auto 10px;
+  font-size: 40px;
+}
+.paragraph--About__Text--Mision,
+.paragraph--About__Text--Vision {
+  margin-top: 10px;
+  text-align: start;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--About__Section--Text)
+  .container--About__Text--Text {
+  padding: 40px;
+  width: 85%;
+  background-color: #28508c;
+  border-radius: 10px;
+  transform: translateY(-50px);
+}
+.headingLevel4--About__Text--Text {
+  color: white;
+  text-transform: uppercase;
+}
+.paragraph--About__Text--Text {
+  color: white;
+}
+.container--About__Text--GotToBuy {
+  margin-top: 30px;
+}
+.wrapper--About__Text--GotToBuy {
+  width: 80%;
+}
+.link--About__Text--GotToBuy {
+  display: block;
+  padding: 15px;
+  width: 100%;
+  color: white;
+  background-color: #28508c;
+  border-radius: 100px;
+  text-decoration: none;
+  font-family: Urbanist;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.paragraph--About__Text--GotToBuy {
+  margin-top: 0;
+}
+
+/* ------------------------------- */
+/* //? Medias Query */
+/* ------------------------------- */
+@media (min-width: 640px) {
+  /* ! Home information  */
+  .paragraph--Information__item {
+    margin: 30px 0;
+  }
+
+  /* ! About page  */
+  .wrapper--About__Text--GotToBuy {
+    width: 60%;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* ! Header */
+  .paragraph--Header-top-text {
+    margin: 5px;
+  }
+  .logoContainer--Header-Desktop__Logo {
+    padding: 0;
+  }
+  .logoImage--Header-Desktop__Logo {
+    width: 100%;
+  }
+
+  /* ! Footer */
+  .paragraph--FooterTitle--development {
+    text-align: left;
+  }
+  .paragraph--FooterTitle {
+    margin: 0 0 10px;
+  }
+  .paragraph--FooterTitle--institutional::after,
+  .paragraph--FooterTitle--politics::after,
+  .paragraph--FooterTitle--support::after,
+  .paragraph--FooterTitle--client::after {
+    display: none;
+  }
+  .paragraph--Footer__Text--terms-2 {
+    padding: 20px 100px;
+    color: white;
+    font-size: 13px;
+    text-align: center;
+  }
+
+  /* ! Home information  */
+  .paragraph--Information__item {
+    font-size: 17px;
+  }
+  .paragraph--Information__item::before {
+    margin-right: 15px;
+  }
+  .heading--Title--destacados-new {
+    margin-top: 60px;
+  }
+
+  /* ! Bottom Banners */
+  .heading--Title--mom {
+    margin-top: 0;
+  }
+  .container--Title--mom {
+    height: 100%;
+  }
+
+  /* ! CopyRight */
+  .wrapper--CopyRight {
+    background-color: white;
+  }
+
+  /* ! Product page */
+  .headingLevel2--Title--most-selling {
+    margin-top: 0;
+  }
+
+  /* ! Politics page */
+  .heading--Politics__Title {
+    width: 90%;
+  }
+  .container--Politics__Title {
+    padding: 0 100px;
+  }
+
+  /* ! About page */
+  .paragraph--About__Title--WhoWeAre {
+    margin: 17px 0 0;
+    width: 100%;
+  }
+  :global(.vtex-flex-layout-0-x-flexRowContent--About__Section--Text)
+    .container--About__Text--Text {
+    width: 100%;
+    transform: translate(-25px, 0px);
+    margin: 30px 0;
+  }
+}
+
+/* ------------------------------- */
+.container--deals {
+  color: #ffffff;
+  text-align: center;
+  justify-content: center;
+}
+
+.container--shelfTitle {
+  color: #727273;
+  justify-content: center;
+  text-align: center;
+}
+
+.headingLevel2--shelfTitle {
+  font-weight: 200;
+}
+
+.container--deals .paragraph {
+  margin: 0;
+}
+
+.container--link {
+  justify-content: center;
+}
+
+.container--question {
+  justify-content: center;
+}
+
+.container--question .paragraph {
+  text-align: center;
+  max-width: 540px;
+  margin: 0 16px;
+  padding-top: 120px;
+  color: #03034e;
+}
+
+.container--question .strong {
+  font-size: 32px;
+  line-height: 2rem;
+  font-weight: 700;
+}
+
+.container--link .paragraph {
+  text-align: center;
+  max-width: 540px;
+  padding-top: 36px;
+  padding-bottom: 84px;
+  color: #03034e;
+}
+
+.container--link .strong {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.container--link .link {
+  text-decoration: none;
+  font-size: 36px;
+  font-weight: 300;
+  color: #03034e;
+}
+
+.container--title {
+  color: #03034e;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+@media only screen and (min-width: 640px) {
+  .container--question .strong {
+    font-size: 40px;
+    line-height: 3rem;
+  }
+
+  .container--about {
+    max-width: 85%;
+  }
+
+  .container--title {
+    color: #03034e;
+    font-size: 40px;
+    font-weight: 700;
+    max-width: 60%;
+  }
+
+  .container--title .paragraph {
+    line-height: 1.3em;
+  }
+}
