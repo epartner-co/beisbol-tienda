@@ -67,11 +67,15 @@
   .sliderRightArrow--Shelf__Slider {
     right: 80px;
   }
+
 }
 
 /* ------------------------------- */
 .sliderLayoutContainer {
   justify-content: center;
+}
+.sliderLayoutContainer--Mobile-Banner {
+  display: block;
 }
 .sliderLayoutContainer--carousel {
   background-color: #f0f0f0;
@@ -92,4 +96,26 @@
   margin-bottom: 25px;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
+}
+
+
+
+
+/*AJUSTE BANNERS SIN BOTON*/
+.sliderLayoutContainer--Mobile-Banner {
+  display: none;
+}
+.sliderLayoutContainer--Desktop-Banner {
+  display: block;
+}
+.sliderArrows--Desktop-Banner {
+  TOP: 45%;
+}
+@media (max-width: 900px) {
+  .sliderLayoutContainer--Mobile-Banner {
+    display: block;
+  }
+.sliderLayoutContainer--Desktop-Banner {
+  display: none;
+}
 }

@@ -34,6 +34,7 @@
   "flex-layout.col#filter": {
     "children": ["filter-navigator.v3"],
     "props": {
+      "width": "25%",
       "blockClass": [
         "Search__Column",
         "Search__Column--Filter-Desktop"
@@ -50,12 +51,11 @@
       "flex-layout.row#FetchMore" // ../search.jsonc
     ],
     "props": {
+      "width": "75%",
       "blockClass": [
         "Search__Column",
         "Search__Column--Content-Desktop"
-      ],
-      "width": "grow",
-      "preventVerticalStretch": true
+      ]
     }
   },
   // ? Row Search Info

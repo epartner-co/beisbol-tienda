@@ -52,7 +52,8 @@
     "props": {
       "blockClass": [
         "main-header",
-        "Header__Container"
+        "Header__Container",
+        "Menu-Bottom"
       ],
       "horizontalAlign": "center",
       "verticalAlign": "center",
@@ -109,4 +110,5 @@
       "width": "grow"
     }
   }
+
 }

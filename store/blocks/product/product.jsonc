@@ -64,7 +64,7 @@
       "product-identifier.product",
       "product-description",
       "flex-layout.row#list-price-savings", // /product-price.jsonc
-      "flex-layout.row#selling-price", // /product-price.jsonc
+      "flex-layout.row#selling-price-Producto", // /product-price.jsonc
       "product-separator",
       "sku-selector",
       "flex-layout.row#buy-button"

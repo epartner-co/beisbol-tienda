@@ -212,7 +212,26 @@
   font-size: 14px;
   line-height: normal;
 }
+.galleryItem--normal.galleryItem--grid {
+  max-width: 25% !important;
+}
+.orderByDropdown::before {
+  content: "Ordenar por: ";
+  width: 200px;
+  font-size: 18px;
+  color: #28508c;
+  font-weight: 600;
+}
+.orderByText {display: none;}
 
+.orderByDropdown {
+  display: flex;
+  align-items: center;
+}
+.orderByButton {
+  display: flex;
+  justify-content: center;
+}
 /* ------------------------------- */
 /* //? Media queries */
 /* ------------------------------- */
@@ -230,7 +249,7 @@
     display: block;
     color: #28508c;
     font-family: Urbanist;
-    font-size: 20px;
+    font-size: 0px;
     font-weight: 700;
     margin-right: 10px;
   }
@@ -256,7 +275,7 @@
   .orderByText {
     color: #0891d0;
     font-family: Roboto;
-    font-size: 15px;
+    font-size: 0px;
     font-weight: 400;
     text-transform: capitalize;
   }

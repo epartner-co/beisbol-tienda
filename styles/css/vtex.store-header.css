@@ -11,6 +11,12 @@
   }
 }
 
+.headerRowBackground--Menu-Bottom {
+  background: #fafafa;
+  padding-top: 10px;
+  padding-bottom: 0;
+}
+
 /* ------------------------------- */
 /* add transitions */
 :global(.vtex-sticky-layout-0-x-container)
