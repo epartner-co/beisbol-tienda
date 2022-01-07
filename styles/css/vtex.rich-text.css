@@ -98,12 +98,13 @@
 }
 .paragraph--Footer__Text {
   margin-top: 0;
-  margin-bottom: 10px;
+   margin-bottom: 6px;
   color: white;
   font-family: Urbanist;
-  font-size: 17px;
+  /* font-size: 17px; */
   font-style: normal;
-  text-align: center;
+  text-align: left;
+  font-weight: 100;
 }
 .paragraph--Footer__Text--terms-2 {
   font-size: 12px;
@@ -112,6 +113,9 @@
   color: white;
   text-decoration: none;
   transition: 0.3s;
+  font-size: 14px;
+  text-align: left;
+  font-weight: 100;
 }
 .link--Footer__Text:hover {
   color: white;

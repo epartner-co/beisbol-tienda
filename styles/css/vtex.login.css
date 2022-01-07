@@ -10,6 +10,12 @@
   font-size: 20px;
   font-weight: 700;
   text-transform: capitalize;
+  font-size: 0;
+}
+.label::after {
+  content: "Login";
+  font-size: 15px;
+  color: #0891D0;
 }
 .buttonLink :global(.vtex-button) {
   border: 1px solid #28508c;
@@ -150,7 +156,7 @@
 @media (min-width: 1200px) {
   /* ! Header */
   .label {
-    font-size: 14px;
+    font-size: 0px;
     font-weight: 400;
     text-align: center;
   }

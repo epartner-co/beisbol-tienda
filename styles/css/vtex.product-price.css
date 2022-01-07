@@ -62,6 +62,9 @@
   .sellingPriceValue {
     font-size: 25px;
   }
+  .currencyContainer--Producto {
+    font-size: 35px;
+}
 }
 
 /* ------------------------------- */
