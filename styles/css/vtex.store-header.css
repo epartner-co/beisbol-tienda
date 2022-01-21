@@ -6,15 +6,13 @@
   .headerRowContainer--Header__Container {
     padding: 0 100px;
   }
-  .headerRowContainer--Header__Container {
-    padding-bottom: 10px;
-  }
+
 }
 
 .headerRowBackground--Menu-Bottom {
   background: #fafafa;
-  padding-top: 10px;
-  padding-bottom: 0;
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
 
 /* ------------------------------- */
@@ -102,4 +100,7 @@
     :global(.vtex-flex-layout-0-x-flexRowContent--main-header) {
     transition: none;
   }
+}
+.headerSpacer.flex.flex-grow-1 {
+  display: none;
 }

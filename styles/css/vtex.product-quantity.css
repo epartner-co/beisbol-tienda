@@ -19,8 +19,8 @@
 .quantitySelectorStepper
   :global(.vtex-numeric-stepper__input) {
   margin-right: 5px;
-  width: 45px !important;
-  height: 45px;
+  width: 60px !important;
+  height: 60px;
   color: #28508c;
   background-color: white;
   border-radius: 100% !important;
@@ -34,8 +34,8 @@
 .quantitySelectorStepper
   :global(.vtex-numeric-stepper__minus-button) {
   border-radius: 100% !important;
-  width: 45px !important;
-  height: 45px;
+  width: 60px !important;
+  height: 60px;
   border: 1px solid #c8c8c8;
   background-color: white;
   margin-right: 5px;

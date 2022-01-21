@@ -36,17 +36,70 @@
     }
   },
 
+    // * PAGINA PRODUCTO
+    "add-to-cart-button#ProductPage": {
+      "props": {
+        "blockClass": "summary-product",
+        "text": "Agregar al carrito"
+      }
+    },
+     // * PAGINA PRODUCTO
+      "add-to-cart-button#SearchPage": {
+          "props": {
+            "blockClass": "summary-search",
+            "text": "Agregar al carrito"
+          }
+        },
+
   "product-summary.shelf": {
+    "props": {
+      "blockClass": [
+        "ProductShelf",
+        "ProductShelfSearch"
+      ]
+    },
     "children": [
-      "stack-layout#prodsum",
-      "product-summary-name",
+      //"stack-layout#prodsum",
+      //"product-summary-name",
       // "flex-layout.col#productRating",
       // "product-summary-space",
-      "product-list-price#summary",
-      "flex-layout.row#selling-price-savings",
-      "product-installments#summary",
-      "add-to-cart-button#summary"
+      //"product-list-price#summary",
+      //"flex-layout.row#selling-price-savings",
+      //"product-installments#summary",
+      //"add-to-cart-button#summary"
+      "product-summary-image#search-vitrina",
+      "product-summary-name",
+      "flex-layout.row#ProductShelfHome",
+      "product-selling-price#search",
+      "add-to-cart-button#SearchPage"
     ]
+  },
+
+  "product-summary-image#search-vitrina": {
+    "props": {
+      "blockClass": [
+        "Image-Search-Product"
+      ]
+    }
+  },
+  "product-selling-price#search": {
+    "props": {
+      "markers": [
+        "highlight"
+      ],
+      "blockClass": [
+        "Search-Product"
+      ],
+      "message": "Selling price: {sellingPriceValue}"
+    }
+  },
+
+  "product-summary-image#search": {
+    "props": {
+      "blockClass": [
+        "Search-Product"
+      ]
+    }
   },
 
   "flex-layout.col#productRating": {
@@ -74,7 +127,7 @@
 
   "vtex.product-highlights@2.x:product-highlights#collection": {
     "props": {
-      "type": "collection"
+      "type": "promotion"
     },
     "children": ["product-highlight-wrapper"]
   },
@@ -120,7 +173,9 @@
   "product-price-savings#summary": {
     "props": {
       "markers": ["discount"],
-      "blockClass": "summary"
+      "blockClass": "summary",
+      "percentageStyle": "compact",
+      "savingsPercentage": "percent"
     }
   },
 

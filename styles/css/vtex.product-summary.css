@@ -32,7 +32,7 @@
 }
 .element--ProductShelfHome :global(.vtex-button) {
   margin-top: 15px;
-  background-color: #28508c;
+  background-color: white;
   border-color: #28508c;
   border-radius: 100px;
   transition: 0.3s;
@@ -44,14 +44,17 @@
 }
 .element--ProductShelfHome
   :global(.vtex-button__label) {
-  padding: 10px 0 !important;
+  padding: 0px 0 !important;
 }
 .image {
   width: 100%;
-  min-height: 290px;
+  min-height: 245px;
   object-fit: contain;
 }
-
+.buttonText--Product-Button-Add {
+  color: white;
+  padding: 0;
+}
 /* ------------------------------- */
 /* //? Medias Query */
 /* ------------------------------- */
@@ -118,4 +121,59 @@
 
 .image {
   border-radius: 0.25rem;
+}
+.element--ProductShelfSearch .savings {
+  font-size: 12px !important;
+}
+.element--ProductShelfSearch .productNameContainer {
+  height: 44px;
+  margin: 0 0 15px 0;
+}
+.clearLink--ProductShelfSearch :global(.vtex-button) {
+  border-radius: 50px;
+  margin: 15px 0 0;
+}
+.element--ProductShelfSearch :global(.vtex-button__label) {
+  padding: 5px 0px;
+}
+.element--ProductShelfSearch :global(.vtex-button) {
+  background-color:white;
+}
+
+
+
+@media (max-width: 900px) {
+  .containerNormal--ProductShelfSearch {
+    border: 1px solid #28508C;
+    padding: 5px;
+  }
+  .element--ProductShelfSearch :global(.vtex-button) {
+    padding: 4px 0;
+}
+.nameContainer {
+  padding: 0;
+}
+.element--ProductShelfSearch .sellingPriceValue {
+  font-size: 20px;
+}
+
+.element--ProductShelfSearch .brandName {
+  font-size: 14px;
+  height: 38px !important;
+  color: #28508C;
+}
+.element--ProductShelfSearch .productNameContainer {
+  height: 40px;
+  margin: 0 0 15px 0;
+}
+.image--Image-Search-Product {
+  min-height: 185px;
+}
+.element--ProductShelfSearch {
+  padding: 3px;
+}
+}
+
+.element--ProductShelfSearch :global(.vtex-button):hover {
+  background: #16325b;
 }

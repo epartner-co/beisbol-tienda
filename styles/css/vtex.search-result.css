@@ -82,13 +82,14 @@
   font-weight: 400;
 }
 .buttonShowMore--layout {
-  padding: 0 0 29px;
+  padding: 0px 0 29px;
 }
 .buttonShowMore :global(.vtex-button) {
   background-color: #28508c;
   border: 1px solid #28508c;
   border-radius: 100px;
   transition: 0.3s;
+  margin: 60px 0 0;
 }
 .buttonShowMore :global(.vtex-button):hover {
   background-color: #183054;
@@ -96,13 +97,14 @@
 }
 .buttonShowMore :global(.vtex-button__label) {
   font-size: 0;
+  padding: 0 52px;
 }
 .buttonShowMore
   :global(.vtex-button__label)::before {
   content: 'Ver más';
   padding: 12px 25px !important;
   font-family: Urbanist;
-  font-size: 15px;
+  font-size: 25px;
   font-weight: 600;
 }
 .filterButtonsBox {
@@ -215,10 +217,27 @@
 .galleryItem--normal.galleryItem--grid {
   max-width: 25% !important;
 }
+@media (max-width: 900px) {
+  .galleryItem--normal.galleryItem--grid {
+    max-width: 48% !important;
+    margin: 5px auto;
+    padding: 0px;
+  }
+  .orderByDropdown::before {
+    display: none;
+  }
+  .filterPopupTitle {
+    font-size: 13px;
+}
+
+
+  }
+
+  
 .orderByDropdown::before {
   content: "Ordenar por: ";
   width: 200px;
-  font-size: 18px;
+  font-size: 16px;
   color: #28508c;
   font-weight: 600;
 }
@@ -256,6 +275,7 @@
   .orderByText::after {
     content: ':';
   }
+
 }
 
 @media (min-width: 1200px) {
@@ -294,8 +314,9 @@
     padding-left: 10px;
     color: #28508c;
     font-family: Urbanist;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 900;
+    text-transform: uppercase;
   }
   .filterSelected--Search__Filter
     .filterTitle--Search__Filter {
@@ -370,6 +391,7 @@
     :global(.vtex-checkbox__container) {
     display: none;
   }
+
 }
 /* ------------------------------- */
 
@@ -394,4 +416,8 @@
 
 .galleryItem--list {
   border-bottom: 1px #e7e9ee solid;
+}
+
+.filter__container--Search__Filter.filter__container--priceRange {
+  display: none;
 }

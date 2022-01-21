@@ -58,9 +58,12 @@
 @media (min-width: 1200px) {
   .styledLinkContainer--MenuItem__Tile {
     margin: 0 40px;
-    padding: 0 15px;
+    padding: 5px 18px;
     border-color: transparent;
   }
+  .styledLinkContainer--MenuItem--9:hover {
+    background-color: #183054;
+}
   .menuItem--MenuItem--6
     .styledLinkContainer--MenuItem--6 {
     margin-left: 40px;
@@ -71,7 +74,7 @@
     justify-content: center;
   }
   .styledLinkContent--MenuItem__Category {
-    color: #28508c;
+    color: #0891d0;
   }
   .styledLinkContent--MenuItem__Category::after {
     content: '';

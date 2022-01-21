@@ -15,6 +15,13 @@
 /* ! Top Slide */
 .paginationDot--TopSlide__Container {
   background-color: #c4c4c4;
+  margin: 0 10px;
+}
+.sliderRightArrow {
+  margin-right: 30PX;
+}
+.sliderLeftArrow {
+  margin-left: 30PX;
 }
 .paginationDot--TopSlide__Container--isActive {
   background-color: #696969;
@@ -22,9 +29,7 @@
 .flexRowContent--Home__CategorySlide {
   margin-top: 30px;
 }
-.sliderLayoutContainer--CategorySlide__Container {
-  padding: 0 15px;
-}
+
 /* ! Slide category */
 .slideChildrenContainer--CategorySlide__Container {
   padding: 0 5px;
@@ -82,8 +87,7 @@
 }
 
 .paginationDotsContainer {
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .layoutContainer--shelf {
@@ -118,4 +122,14 @@
 .sliderLayoutContainer--Desktop-Banner {
   display: none;
 }
+.sliderLayoutContainer--Mobile-Banner .sliderArrows {
+  top: 45%;
+}
+ .sliderLeftArrow {
+  margin-left: 10PX;
+}
+.sliderRightArrow {
+  margin-Right: 10PX;
+}
+
 }

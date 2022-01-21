@@ -153,8 +153,8 @@
         }
       ],
       // "ListSummary": "product-summary.shelf#listLayout",
-      "ListSummary": "product-summary.shelf#HomeVitrinas",
-      "GridSummary": "product-summary.shelf#HomeVitrinas"
+      "ListSummary": "product-summary.shelf",
+      "GridSummary": "product-summary.shelf"
       // "GridSummary": "product-summary.shelf"
     }
   },

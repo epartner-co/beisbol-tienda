@@ -33,6 +33,8 @@
   display: flex;
   justify-content: center;
   align-items: flex-start;
+  width: 95%;
+  margin: 0 auto;
 }
 .flexCol--Footer-development__container {
   display: flex;
@@ -455,7 +457,7 @@
     padding: 0 15px;
   }
   .flexCol--Search__Column--Filter-Desktop {
-    padding-right: 20px;
+    padding-right: 45px;
   }
   .flexRowContent--Search__Row--SearchInfo-Desktop {
     display: flex;
@@ -645,4 +647,17 @@
 }
 .flexRowContent--Footer-Desktop__container .stretchChildrenWidth:last-child {
   width: 35% !important;
+}
+
+.flexRowContent--Product__BuyButton .stretchChildrenWidth:first-child {
+  width: 50% !important;
+}
+
+
+@media (max-width: 900px) {
+
+.flexColChild--Footer-Promotional__Images {
+    padding: 0 5px;
+}
+
 }

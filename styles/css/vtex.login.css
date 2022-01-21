@@ -14,7 +14,7 @@
 }
 .label::after {
   content: "Login";
-  font-size: 15px;
+  font-size: 16px;
   color: #0891D0;
 }
 .buttonLink :global(.vtex-button) {

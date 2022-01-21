@@ -49,7 +49,7 @@
   padding: 2px 5px;
   color: white;
   font-family: Roboto;
-  font-size: 16px;
+  font-size: 12px;
   font-weight: 400;
   text-align: left;
 }
@@ -91,7 +91,7 @@
 
 .savings {
   font-weight: 500;
-  color: #79b03a;
+  color: white
 }
 
 .sellingPriceValue--summary {
@@ -146,4 +146,27 @@
   vertical-align: baseline;
   color: #ffffff;
   padding: 0.25rem 0.5rem 0.25rem 0.5rem;
+}
+.currencyDecimal {
+  display: none;
+}
+.currencyFraction {
+  display: none;
+}
+
+
+@media (max-width: 900px) {
+  
+.listPriceValue {
+  font-size: 12px;
+}
+.savings {
+  font-size: 11px;
+}
+.listPrice {
+  margin: 0;
+}
+.currencyContainer--Search-Product {
+  font-size: 25px;
+}
 }

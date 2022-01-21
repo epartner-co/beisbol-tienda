@@ -19,14 +19,57 @@
 .buttonText {
   font-family: 'Urbanist';
   font-size: 18px;
+  color:#28508C;
+  padding: 10px 13px;
 }
+.buttonText:hover {
+  color:white;
+  
+}
+
 /* ------------------------------- */
 /* //? Medias Query */
 /* ------------------------------- */
 @media (min-width: 1200px) {
   /* ! Vitrina */
   .buttonText--summary {
-    font-size: 15px;
+    font-size: 20x;
   }
+  .buttonText--Product-Button-Add {
+    font-size: 25px;
 }
+
+
+}
+
+
+
+
+
+
+
+
+
+.buttonText--Product-Button-Add {
+  color: white;
+  padding: 0;
+}
+.buttonText--summary-search {
+  padding: 10px 15px;
+    font-size: 15px;
+}
+.buttonDataContainer {
+  width: 100%;
+}
+.buttonText {
+  width: 100%;
+}
+
+
+@media (max-width: 900px) {
+  .buttonText--summary-search {
+    padding: 10px 0;
+    font-size: 13px;
+  }
+  }
 /* ------------------------------- */

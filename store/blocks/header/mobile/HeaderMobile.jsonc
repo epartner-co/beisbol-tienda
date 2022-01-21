@@ -19,7 +19,7 @@
       // "locale-switcher",
       // "login",
       // TODO: Talk with design to modify the search bar
-      // "search-bar",
+     // "search-bar",
       "minicart.v2"
     ],
     "props": {
@@ -36,6 +36,7 @@
   },
   "menu#drawer": {
     "children": [
+      "search-bar",
       "disclosure-layout#Category", // ../menu/MenuMobile.jsonc
       "menu-item#6", // ../menu/menu.jsonc
       "menu-item#7", // ../menu/menu.jsonc
@@ -53,7 +54,7 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://beisbol.vteximg.com.br/arquivos/logo-beisbol-header.png"
+      "url": "https://beisbol.vteximg.com.br/arquivos/pnglogotiendabeisbol.png"
     }
   }
 }

@@ -111,7 +111,7 @@
   },
   "image#TopSlide-Desk-item-2": {
     "props": {
-      "src": "https://beisbol.vteximg.com.br/arquivos/banner-home-deks-2.jpg",
+      "src": "https://beisbol.vteximg.com.br/arquivos/banner-home-deks-2-.jpg",
       "link": {"url":"/casa"},
       "blockClass": [
         "TopSlide__Item",
@@ -144,7 +144,7 @@
 
   "image#TopSlide-Mobile-item-2": {
     "props": {
-      "src": "https://beisbol.vteximg.com.br/arquivos/banner-home-mobile-2.jpg",
+      "src": "https://beisbol.vteximg.com.br/arquivos/banner-home-mobile-2-.jpg",
       "link": {"url":"/"},
       "blockClass": [
         "TopSlide__Item",

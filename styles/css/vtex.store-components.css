@@ -5,10 +5,15 @@
   display: block;
   padding: 0 10px;
   padding-right: 0;
-  max-width: 130px;
+  max-width: 220px;
 }
 .logoImage {
-  width: 185px;
+  width: 300px;
+}
+@media (max-width: 900px) {
+.logoImage {
+  width: 190px;
+}
 }
 .searchBarContainer
   :global(.vtex-styleguide-9-x-input) {
@@ -19,6 +24,7 @@
 /* ------------------------------- */
 .imageElement--Footer__image {
   transition: 0.3s;
+  width: 90%;
 }
 .imageElement--Footer__image:hover {
   opacity: 1;
@@ -165,6 +171,7 @@
 }
 .infoCardImageContainer--CategorySlide__Item--5::after {
   background-image: url('https://beisbol.vteximg.com.br/arquivos/cuidado-cocina-icono-home.png');
+  background-size: 50%;
 }
 .infoCardContainer--CategorySlide__Item:hover
   .infoCardImageContainer--CategorySlide__Item::after {
@@ -385,7 +392,7 @@
   color: white;
   font-family: Urbanist;
   font-size: 55px;
-  font-weight: 700;
+  font-weight: 300;
   text-align: center;
 }
 .label--Newsletter::before {
@@ -405,6 +412,7 @@
   font-style: normal;
   font-weight: 700;
   text-transform: uppercase;
+  line-height: 40px;
 }
 .label--Newsletter .inputGroup {
   padding: 0 25px;
@@ -525,7 +533,7 @@
 }
 .productDescriptionTitle {
     font-size: 20px;
-    margin: 10px 0 10px;
+    margin: 25px 0 10px;
     font-weight: 100;
     color: #5791d9;
 }
@@ -624,12 +632,12 @@
   text-align: center;
 }
 .productImage {
-  margin: 10px 25px;
+ /* margin: 10px 25px;*/
   box-shadow: 0px 4px 15px 0px #0000001a;
   border-radius: 5px;
 }
 .swiper-pagination {
-  bottom: 5px;
+  bottom: 25px !important;
 }
 .swiperCaret {
   display: flex;
@@ -717,11 +725,17 @@
     background-position: center;
     transform: translateY(-50%);
   }
-
+  .swiperCaretNext {
+    right: 10px;
+}
+.swiperCaretPrev {
+    left: 10px;
+}
+/*
   .swiperCaret {
     display: none;
   }
-
+*/
   /* ! About us page */
   :global(.vtex-flex-layout-0-x-flexRowContent--About__Socials)
     .imageElementLink--About__Image-Social {
@@ -760,6 +774,10 @@
   .infoCardCallActionContainer--BannerTop__item--2 {
     margin-bottom: 0;
   }
+  .logoLink--Header-Desktop__Logo {
+    margin-left: 2px;
+    margin-right: 70px;
+}
 }
 
 @media (min-width: 1200px) {
@@ -774,6 +792,9 @@
     width: 60% !important;
     max-width: 65%;
   }
+  .searchBarInnerContainer {
+    width: 85%;
+}
   .autoCompleteOuterContainer
     :global(.vtex-input-prefix__group) {
     color: black;
@@ -785,6 +806,12 @@
     border-color: #f2f2f2;
     border-radius: 50px;
   }
+  .autoCompleteOuterContainer :global(.vtex-input__suffix) {
+    padding: 0 5px;
+  }
+
+
+
   .searchBarIcon--search {
     color: #28508c;
   }
@@ -836,7 +863,7 @@
   }
   .infoCardContainer--CategorySlide__Item
     .infoCardImageContainer--CategorySlide__Item--3::after {
-    background-size: 20%;
+    background-size: 28%;
   }
 
   /* ! Top Banners */
@@ -894,13 +921,16 @@
   .label--Newsletter {
     align-items: flex-start;
     font-size: 90px;
+    text-shadow: 4px 4px 4px rgba(150, 150, 150, 1);
   }
   .label--Newsletter::before {
     font-size: 35px;
+    text-shadow: 4px 4px 4px rgb(150 150 150);
+    font-weight: 100;
   }
   .label--Newsletter::after {
     width: 60%;
-    font-size: 25px;
+    font-size: 23px;
     font-weight: 300;
   }
   .inputGroup--Newsletter {
@@ -1095,3 +1125,73 @@
   background-color: transparent;
 }
 
+.imageElementLink--TopSlide__Item {
+  width: 100%;
+}
+.imageElement--TopSlide__Item {
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 900px) {
+.vtex-store-components-3-x-infoCardContainer--BannerTop__item--1 {
+    background-size: 100% !important;
+}
+.vtex-store-components-3-x-infoCardContainer--BannerTop__item--2 {
+  background-size: 100% !important;
+}
+.infoCardCallActionContainer--BannerTop__item--1 {
+    width: 100%;
+    height: 150px;
+    min-height: 150px;
+    max-height: 150px;
+}
+.infoCardCallActionContainer--BannerTop__item--2 {
+  width: 100%;
+  height: 150px;
+  min-height: 150px;
+  max-height: 150px;
+}
+.newsletter--Newsletter {
+  background-size: cover;
+}
+.label--Newsletter::after {
+  line-height: 25px;
+  font-weight: 100;
+  font-size: 20px;
+  margin: 10px;
+}
+.label--Newsletter {
+  font-size: 50px;
+}
+.form--Newsletter .inputGroup {
+  margin: 0;
+}
+.imageElement--Footer__image {
+  width: 80%;
+}
+.imageElement--Footer__image--company {
+  max-width: 290px;
+}
+.imageElement--Footer__image--technology {
+  width: 64%;
+}
+.imageElement--Footer__image--development {
+  width: 70%;
+}
+}

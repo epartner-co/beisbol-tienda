@@ -107,6 +107,9 @@
   // ? Product buy button
   "add-to-cart-button": {
     "props": {
+      "blockClass": [
+        "Product-Button-Add"
+      ],
       "text": "Comprar producto"
     }
   },
@@ -184,7 +187,8 @@
         "desktop": "auto",
         "phone": "16:9"
       },
-      "displayThumbnailsArrows": true
+      "displayThumbnailsArrows": true,
+      "showNavigationArrows": true
     }
   },
 

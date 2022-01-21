@@ -561,3 +561,20 @@
     line-height: 1.3em;
   }
 }
+
+
+
+@media (max-width: 900px) {
+.paragraph--Header-top-text {
+    font-size: 8px;
+}
+.paragraph--FooterTitle.paragraph--FooterTitle--terms {
+  font-size: 12px;
+  font-weight: 100;
+}
+.paragraph--FooterTitle {
+  font-size: 14px;
+}
+
+
+}
