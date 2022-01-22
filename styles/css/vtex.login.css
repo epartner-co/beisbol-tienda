@@ -41,7 +41,16 @@
   font-size: 15px;
   font-weight: 700;
 }
-
+.optionsListItem .emailPasswordOptionBtn{
+    margin: 0;
+}
+.optionsListItem .emailPasswordOptionBtn :global(.vtex-button__label) {
+  font-size: 13px;
+  text-transform: revert !important;
+}
+.accessCodeOptionBtn :global(.vtex-button):hover {
+  background-color: #dbe9fd;
+}
 /* ------------------------------- */
 /* //* Login Page  */
 /* ------------------------------- */
