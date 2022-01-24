@@ -66,7 +66,7 @@
     "props": {
       "blockClass": ["Search__Filter"],
       "initiallyCollapsed": "true",
-      "openFiltersMode": "one",
+      "openFiltersMode": "many",
       "navigationTypeOnMobile": "collapsible",
       "appliedFiltersOverview": "hide",
       "closeOnOutsideClick": true,

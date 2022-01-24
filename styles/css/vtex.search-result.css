@@ -251,6 +251,11 @@
   display: flex;
   justify-content: center;
 }
+.filterContent--Search__Filter .filterItem--Search__Filter :global(.vtex-checkbox__label):hover {
+  background: #fafafa;
+  padding: 2px 5px;
+  transition: 1s;
+}
 /* ------------------------------- */
 /* //? Media queries */
 /* ------------------------------- */
@@ -419,5 +424,12 @@
 }
 
 .filter__container--Search__Filter.filter__container--priceRange {
+  display: none;
+}
+.galleryItem.galleryItem--normal.galleryItem--grid:hover {
+  border: 1px solid #16325b;
+  border-radius: 15px;
+}
+.accordionFilterContainer--Search__Filter--gama-de-precios {
   display: none;
 }

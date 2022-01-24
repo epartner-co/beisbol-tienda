@@ -118,4 +118,9 @@
   
 }
 
+.menuItem .menuItem--MenuItem:hover {
+  background: #ededed82;
+  padding-left: 5px;
+  transition: 2s;
+}
 /* ------------------------------- */

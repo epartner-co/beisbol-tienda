@@ -4,10 +4,10 @@
 /* ! Vitrina */
 .element--ProductShelfHome {
   justify-content: space-between;
-  margin: 10px;
-  padding: 10px;
+  margin: 5px;
+  padding: 20px;
   background-color: transparent;
-  border-radius: 5px;
+  border-radius: 15px;
   border: 1px solid transparent;
   box-shadow: 0;
   transition: 0.5s;

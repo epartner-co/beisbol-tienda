@@ -36,7 +36,7 @@
   opacity: 1;
 }
 .imageElement--Footer__image--development {
-  width: 165px;
+  width: 160px;
 }
 .imageElement--Footer__image--technology {
   transform: translateY(60%);
@@ -767,6 +767,7 @@
     width: 100%;
     height: 100%;
     background-size: contain !important;
+    border: none;
   }
   .infoCardTextContainer--BannerTop__item {
     width: 70%;
@@ -822,6 +823,7 @@
   }
   .imageElement--Footer__image--technology {
     margin-top: 12px;
+    width: 135px;
   }
   .imageElementLink--Footer__image--company {
     justify-content: flex-start;
@@ -1193,5 +1195,8 @@
 }
 .imageElement--Footer__image--development {
   width: 70%;
+}
+.productNameContainer {
+  font-size: 27px;
 }
 }

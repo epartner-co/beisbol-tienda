@@ -93,7 +93,9 @@
   font-weight: 500;
   color: white
 }
-
+.sellingPrice--Search-Product--hasListPrice {
+  FONT-SIZE: 0;
+}
 .sellingPriceValue--summary {
   font-size: 1.25rem;
   font-weight: 600;

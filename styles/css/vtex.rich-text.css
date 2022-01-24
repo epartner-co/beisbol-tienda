@@ -561,7 +561,9 @@
     line-height: 1.3em;
   }
 }
-
+.link--Footer__Text:hover {
+  text-decoration: underline;
+}
 
 
 @media (max-width: 900px) {

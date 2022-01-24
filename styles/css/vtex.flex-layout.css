@@ -411,7 +411,7 @@
 
   /* ! Top Banners */
   .flexRowContent--Home__Banners--1 {
-    padding: 70px 100px 50px;
+    padding: 0px 100px 50px;
   }
   .flexCol--Banners--top {
     justify-content: center;
@@ -643,7 +643,7 @@
   padding-bottom: 1rem;
 }
 .flexRowContent--Home__Banners.flexRowContent--Home__Banners--1 {
-  height: 520px;
+  height: 645px;
 }
 .flexRowContent--Footer-Desktop__container .stretchChildrenWidth:last-child {
   width: 35% !important;
