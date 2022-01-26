@@ -75,7 +75,7 @@
   }
   .styledLinkContent--MenuItem__Category {
     color: #0891d0;
-    margin-left: 4px;
+    margin-left: 10px;
   }
   .styledLinkContent--MenuItem__Category::after {
     content: '';

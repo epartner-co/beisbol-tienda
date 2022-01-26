@@ -39,7 +39,7 @@
       "textPosition": "left",
       "imageUrl": "https://beisbol.vteximg.com.br/arquivos/banner-sec-pisos.jpg",
       "callToActionText": "Cuidado de los pisos",
-      "callToActionUrl": "#"
+      "callToActionUrl": "Cuidado-de-los-pisos"
     }
   },
 
@@ -55,7 +55,7 @@
       "textPosition": "left",
       "imageUrl": "https://beisbol.vteximg.com.br/arquivos/banner-sec-hogar.jpg",
       "callToActionText": "Cuidado del hogar",
-      "callToActionUrl": "#"
+      "callToActionUrl": "/Cuidado-del-hogar"
     }
   },
 
@@ -71,7 +71,7 @@
       "textPosition": "left",
       "imageUrl": "https://beisbol.vteximg.com.br/arquivos/banner-sec-ropa.jpg",
       "callToActionText": "Cuidado de la ropa",
-      "callToActionUrl": "#"
+      "callToActionUrl": "/Cuidado-de-la-ropa"
     }
   },
 
@@ -87,7 +87,7 @@
       "textPosition": "left",
       "imageUrl": "https://beisbol.vteximg.com.br/arquivos/banner-sec-calzado.jpg",
       "callToActionText": "Cuidado de calzado",
-      "callToActionUrl": "#"
+      "callToActionUrl": "/Cuidado-de-calzado"
     }
   },
 
