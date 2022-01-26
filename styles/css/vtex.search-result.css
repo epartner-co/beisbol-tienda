@@ -215,7 +215,9 @@
   line-height: normal;
 }
 .galleryItem--normal.galleryItem--grid {
-  max-width: 25% !important;
+  max-width: 23%!important;
+  margin: 9px;
+  padding: 10px;
 }
 @media (max-width: 900px) {
   .galleryItem--normal.galleryItem--grid {
@@ -236,8 +238,8 @@
   
 .orderByDropdown::before {
   content: "Ordenar por: ";
-  width: 200px;
-  font-size: 16px;
+  width: 180px;
+  font-size: 15px;
   color: #28508c;
   font-weight: 600;
 }
@@ -328,7 +330,7 @@
     display: none;
   }
   .filterSelected--Search__Filter {
-    padding: 5px;
+    padding: 0px;
   }
   .filter__container--selectedFilters {
     border: 0;
@@ -361,6 +363,8 @@
     font-size: 15px;
     font-weight: 400;
     cursor: pointer;
+    width: 86%;
+    align-items: center;
   }
   .filterItem--Search__Filter--selected
     :global(.vtex-checkbox__container) {

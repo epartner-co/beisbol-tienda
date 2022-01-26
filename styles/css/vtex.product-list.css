@@ -18,3 +18,13 @@
   font-size: 13px;
   font-weight: 700;
 }
+
+@media (max-width: 900px) {
+.productBrandName {
+  display: none;
+}
+.price {margin-top: -7px;}
+.currencyContainer {
+  font-size: 12px;
+}
+}

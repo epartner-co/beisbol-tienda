@@ -87,6 +87,7 @@
 :global(.vtex-sticky-layout-0-x-wrapper--stuck)
   :global(.vtex-store-components-3-x-logoLink) {
   transform: scale(0.85);
+  margin-left: -15px;
 }
 
 @media (prefers-reduced-motion: reduce) {

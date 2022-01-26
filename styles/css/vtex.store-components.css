@@ -14,6 +14,10 @@
 .logoImage {
   width: 190px;
 }
+.infoCardContainer--BannerTop__item {
+  border-radius: 5px;
+  height: 260px;
+}
 }
 .searchBarContainer
   :global(.vtex-styleguide-9-x-input) {
@@ -24,7 +28,7 @@
 /* ------------------------------- */
 .imageElement--Footer__image {
   transition: 0.3s;
-  width: 90%;
+  width: 70%;
 }
 .imageElement--Footer__image:hover {
   opacity: 1;
@@ -38,9 +42,7 @@
 .imageElement--Footer__image--development {
   width: 160px;
 }
-.imageElement--Footer__image--technology {
-  transform: translateY(60%);
-}
+
 .imageElementLink--Footer__image--company {
   display: flex;
   justify-content: center;
@@ -433,11 +435,11 @@
 }
 .form--Newsletter .inputGroup::before {
   content: 'Suscríbete a nuestro Newsletter';
-  margin-bottom: 16px;
-  padding-top: 10px;
+  margin-bottom: 27px;
+  /* padding-top: 10px; */
   font-weight: 400;
   text-transform: uppercase;
-  font-size: 15px;
+  font-size: 12px;
 }
 .label--Newsletter .inputGroup::placeholder {
   color: #c5c5c5;
@@ -526,13 +528,13 @@
   margin-bottom: 10px;
   color: #28508c;
   font-family: Urbanist;
-  font-size: 35px;
+  font-size: 30px;
   font-style: normal;
   font-weight: 700;
   text-align: left;
 }
 .productDescriptionTitle {
-    font-size: 20px;
+    font-size: 18px;
     margin: 25px 0 10px;
     font-weight: 100;
     color: #5791d9;
@@ -779,6 +781,7 @@
     margin-left: 2px;
     margin-right: 70px;
 }
+
 }
 
 @media (min-width: 1200px) {
@@ -823,7 +826,7 @@
   }
   .imageElement--Footer__image--technology {
     margin-top: 12px;
-    width: 135px;
+    width: 130px;
   }
   .imageElementLink--Footer__image--company {
     justify-content: flex-start;
@@ -902,7 +905,7 @@
 
   /* ! Newsletter */
   .container--Newsletter {
-    padding: 100px 10px;
+    padding: 50px 10px;
   }
   .newsletter--Newsletter {
     background-image: url('https://beisbol.vteximg.com.br/arquivos/newsletter.png');
@@ -922,17 +925,17 @@
   }
   .label--Newsletter {
     align-items: flex-start;
-    font-size: 90px;
+    font-size: 100px;
     text-shadow: 4px 4px 4px rgba(150, 150, 150, 1);
   }
   .label--Newsletter::before {
-    font-size: 35px;
+    font-size: 50px;
     text-shadow: 4px 4px 4px rgb(150 150 150);
     font-weight: 100;
   }
   .label--Newsletter::after {
     width: 60%;
-    font-size: 23px;
+    font-size: 30px;
     font-weight: 300;
   }
   .inputGroup--Newsletter {
@@ -1188,7 +1191,7 @@
   width: 80%;
 }
 .imageElement--Footer__image--company {
-  max-width: 290px;
+  max-width: 200px;
 }
 .imageElement--Footer__image--technology {
   width: 64%;
@@ -1197,6 +1200,12 @@
   width: 70%;
 }
 .productNameContainer {
-  font-size: 27px;
+  font-size: 20px;
+}
+.productDescriptionText {
+  font-size: 13px;
+}
+.productDescriptionTitle {
+  font-size: 15px;
 }
 }

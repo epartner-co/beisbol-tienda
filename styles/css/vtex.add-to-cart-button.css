@@ -18,9 +18,9 @@
 /* ------------------------------- */
 .buttonText {
   font-family: 'Urbanist';
-  font-size: 18px;
+  font-size: 16px;
   color:#28508C;
-  padding: 10px 13px;
+  padding: 10px 0px;
 }
 .buttonText:hover {
   color:white;
@@ -40,6 +40,13 @@
 }
 
 
+}
+
+@media (max-width: 900px) {
+  .buttonText {
+    font-size: 14px;
+
+}
 }
 
 

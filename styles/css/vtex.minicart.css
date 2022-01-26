@@ -157,3 +157,11 @@
   }
 }
 /* ------------------------------- */
+@media (max-width: 900px) {
+  .drawer
+  :global(.vtex-product-list-0-x-productName) {
+  font-size: 14px;
+  margin-bottom: -14px;
+}
+
+}

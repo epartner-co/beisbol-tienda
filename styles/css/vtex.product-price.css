@@ -27,7 +27,7 @@
 .listPriceValue {
   color: #a7a7a7;
   font-family: Urbanist;
-  font-size: 18px;
+  font-size: 15px;
   font-style: normal;
   font-weight: 100;
   text-align: left;
@@ -60,7 +60,7 @@
 @media (min-width: 1200px) {
   /* ! Vitrina */
   .sellingPriceValue {
-    font-size: 25px;
+    font-size: 22px;
   }
   .currencyContainer--Producto {
     font-size: 35px;
@@ -160,7 +160,7 @@
 @media (max-width: 900px) {
   
 .listPriceValue {
-  font-size: 12px;
+  font-size: 14px;
 }
 .savings {
   font-size: 11px;
@@ -169,6 +169,9 @@
   margin: 0;
 }
 .currencyContainer--Search-Product {
-  font-size: 25px;
+  font-size: 20px;
+}
+.sellingPriceValue {
+  font-size: 22px;
 }
 }

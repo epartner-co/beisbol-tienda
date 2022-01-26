@@ -4,8 +4,8 @@
 /* ! Vitrina */
 .element--ProductShelfHome {
   justify-content: space-between;
-  margin: 5px;
-  padding: 20px;
+  margin: 3px;
+  padding: 15px;
   background-color: transparent;
   border-radius: 15px;
   border: 1px solid transparent;
@@ -61,7 +61,7 @@
 @media (min-width: 1200px) {
   /* ! Vitrina */
   .brandName {
-    font-size: 17px;
+    font-size: 16px;
   }
 }
 @media (max-width: 1200px) {
@@ -107,7 +107,7 @@
 
 .brandName {
   font-weight: 600;
-  font-size: 18px;
+  font-size: 16px;
   color: #2e2e2e;
 }
 
@@ -126,7 +126,7 @@
   font-size: 12px !important;
 }
 .element--ProductShelfSearch .productNameContainer {
-  height: 44px;
+  height: 39px;
   margin: 0 0 15px 0;
 }
 .clearLink--ProductShelfSearch :global(.vtex-button) {
@@ -147,20 +147,20 @@
     border: 1px solid #28508C;
     padding: 5px;
   }
-  .element--ProductShelfSearch :global(.vtex-button) {
-    padding: 4px 0;
-}
 .nameContainer {
   padding: 0;
 }
 .element--ProductShelfSearch .sellingPriceValue {
   font-size: 20px;
 }
-
+.button-0-x-buttonText {
+  font-family: 'Urbanist';
+  font-size: 174px;
+  color: #28508C;
+  padding: 10px 0px;
+}
 .element--ProductShelfSearch .brandName {
   font-size: 14px;
-  height: 38px !important;
-  color: #28508C;
 }
 .element--ProductShelfSearch .productNameContainer {
   height: 40px;
@@ -172,6 +172,11 @@
 .element--ProductShelfSearch {
   padding: 3px;
 }
+.clearLink--ProductShelfSearch :global(.vtex-button) {
+  border-radius: 50px;
+  margin: 10px 0 0;
+}
+
 }
 
 .element--ProductShelfSearch :global(.vtex-button):hover {

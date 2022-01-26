@@ -9,3 +9,8 @@
   text-align: left;
 }
 /* ------------------------------- */
+@media (max-width: 900px) {
+  .product-identifier {
+    font-size: 14px;
+  }
+}
