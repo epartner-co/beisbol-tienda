@@ -396,7 +396,7 @@
     margin-top: 0;
   }
   .flexRowContent--Footer-Desktop__container {
-    padding: 80px 100px 50px;
+    padding: 80px 100px 20px;
   }
 
   /* ! Home Information */
@@ -642,7 +642,8 @@
   padding-bottom: 1rem;
 }
 .flexRowContent--Home__Banners.flexRowContent--Home__Banners--1 {
-  height: 600px;
+  height: 450px;
+  margin-top: -4%;
 }
 
 .flexRowContent--Footer-Desktop__container .stretchChildrenWidth:last-child {
@@ -659,7 +660,12 @@
 .flexColChild--Footer-Promotional__Images {
     padding: 0 5px;
 }
-
+.flexColChild--Footer-development__container--right:last-child {
+  margin: 14px 0 0 0;
+}
+.flexRowContent--Footer-development {
+  width: 85%;
+}
 }
 
 .flexCol--Footer-Desktop__subColum-5--3 {

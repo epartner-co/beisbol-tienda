@@ -377,7 +377,7 @@
 /* ! Newsletter */
 .newsletter--Newsletter {
   margin-top: 40px;
-  background-image: url('https://beisbol.vteximg.com.br/arquivos/newsletter.png');
+  background-image: url('https://beisbol.vteximg.com.br/arquivos/banner-newsletter.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: auto;
@@ -821,13 +821,8 @@
   }
 
   /* ! Footer */
-  .imageElement--Footer__image--development {
-    margin-top: 10px;
-  }
-  .imageElement--Footer__image--technology {
-    margin-top: 12px;
-    width: 130px;
-  }
+
+
   .imageElementLink--Footer__image--company {
     justify-content: flex-start;
   }
@@ -1194,10 +1189,10 @@
   max-width: 200px;
 }
 .imageElement--Footer__image--technology {
-  width: 64%;
+  width: 65%;
 }
 .imageElement--Footer__image--development {
-  width: 70%;
+  width: 80%;
 }
 .productNameContainer {
   font-size: 20px;

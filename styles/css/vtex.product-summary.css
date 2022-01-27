@@ -4,8 +4,8 @@
 /* ! Vitrina */
 .element--ProductShelfHome {
   justify-content: space-between;
-  margin: 3px;
-  padding: 15px;
+  margin: 12px;
+  padding: 20px;
   background-color: transparent;
   border-radius: 15px;
   border: 1px solid transparent;
@@ -48,7 +48,7 @@
 }
 .image {
   width: 100%;
-  min-height: 245px;
+  min-height: 230px;
   object-fit: contain;
 }
 .buttonText--Product-Button-Add {
@@ -176,7 +176,9 @@
   border-radius: 50px;
   margin: 10px 0 0;
 }
-
+.containerNormal--ProductShelfHome {
+  max-width: 270px !important;
+}
 }
 
 .element--ProductShelfSearch :global(.vtex-button):hover {
