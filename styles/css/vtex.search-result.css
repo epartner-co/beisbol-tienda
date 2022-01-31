@@ -85,7 +85,7 @@
   padding: 0px 0 29px;
 }
 .buttonShowMore :global(.vtex-button) {
-  background-color: #28508c;
+  background-color: white;
   border: 1px solid #28508c;
   border-radius: 100px;
   transition: 0.3s;
@@ -95,9 +95,14 @@
   background-color: #183054;
   border-color: #183054;
 }
+
 .buttonShowMore :global(.vtex-button__label) {
   font-size: 0;
   padding: 0 52px;
+  color:#28508c;
+}
+.buttonShowMore :global(.vtex-button):hover {
+  color: white;
 }
 .buttonShowMore
   :global(.vtex-button__label)::before {
@@ -107,6 +112,10 @@
   font-size: 25px;
   font-weight: 600;
 }
+.buttonShowMore :global(.vtex-button__label):hover {
+  color: white;
+}
+
 .filterButtonsBox {
   flex-direction: row-reverse;
 }

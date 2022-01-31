@@ -445,7 +445,7 @@
   }
   .flexRowContent--Breadcrumb {
     border-top: 0;
-    margin: 45px 15px 10px;
+    margin: 25px 15px 10px;
   }
 
   /* ! Search page */
@@ -544,6 +544,9 @@
     padding-right: 35px;
   }
 }
+
+
+
 
 /* ------------------------------- */
 /* .flexRowContent--menu-link,
@@ -666,9 +669,20 @@
 .flexRowContent--Footer-development {
   width: 85%;
 }
+.flexRowContent--Home__Banners.flexRowContent--Home__Banners--1 {
+  height: 600px;
+  margin-top: -4%;
+}
 }
 
 .flexCol--Footer-Desktop__subColum-5--3 {
   display: flex;
   align-items: center;
+}
+
+@media (min-width: 1450px) {
+  .flexRowContent--Home__Banners.flexRowContent--Home__Banners--1 {
+    height: 550px;
+    margin-top: -2%;
+}
 }

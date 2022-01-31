@@ -102,7 +102,7 @@
   "image#TopSlide-Desk-item-1": {
     "props": {
       "src": "https://beisbol.vteximg.com.br/arquivos/home-desk1.jpg",
-      "link": {"url":"/casa"},
+      "link": {"url":"/beisbol"},
       "blockClass": [
         "TopSlide__Item",
         "TopSlide__Item--3"
@@ -112,7 +112,7 @@
   "image#TopSlide-Desk-item-2": {
     "props": {
       "src": "https://beisbol.vteximg.com.br/arquivos/home-desk2.jpg",
-      "link": {"url":"/casa"},
+      "link": {"url":"/cuidado-de-pisos"},
       "blockClass": [
         "TopSlide__Item",
         "TopSlide__Item--3"
@@ -122,7 +122,7 @@
   "image#TopSlide-Desk-item-3": {
     "props": {
       "src": "https://beisbol.vteximg.com.br/arquivos/home-desk3.jpg",
-      "link": {"url":"/casa"},
+      "link": {"url":"/Cuidado-de-la-cocina"},
       "blockClass": [
         "TopSlide__Item",
         "TopSlide__Item--3"
@@ -134,7 +134,7 @@
   "image#TopSlide-Mobile-item-1": {
     "props": {
       "src": "https://beisbol.vteximg.com.br/arquivos/home-mobile1.jpg",
-      "link": {"url":"/"},
+      "link": {"url":"/beisbol"},
       "blockClass": [
         "TopSlide__Item",
         "TopSlide__Item--3"
@@ -145,7 +145,7 @@
   "image#TopSlide-Mobile-item-2": {
     "props": {
       "src": "https://beisbol.vteximg.com.br/arquivos/home-mobile2.jpg",
-      "link": {"url":"/"},
+      "link": {"url":"/cuidado-de-pisos"},
       "blockClass": [
         "TopSlide__Item",
         "TopSlide__Item--3"
@@ -156,7 +156,7 @@
   "image#TopSlide-Mobile-item-3": {
     "props": {
       "src": "https://beisbol.vteximg.com.br/arquivos/home-mobile3.jpg",
-      "link": {"url":"/"},
+      "link": {"url":"/Cuidado-de-la-cocina"},
       "blockClass": [
         "TopSlide__Item",
         "TopSlide__Item--3"

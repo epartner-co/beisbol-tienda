@@ -70,7 +70,7 @@
       ],
       "src": "https://beisbol.vteximg.com.br/arquivos/facebook-icono-footer.png",
       "link": {
-        "url": "#",
+        "url": "https://www.facebook.com/BeisboldeColombia",
         "label": "Facebook",
         "newTab": true
       }
@@ -85,7 +85,7 @@
       ],
       "src": "https://beisbol.vteximg.com.br/arquivos/instagram-icono-footer.png",
       "link": {
-        "url": "#",
+        "url": "https://www.instagram.com/beisbolco/",
         "label": "Instagram",
         "newTab": true
       }
@@ -115,7 +115,7 @@
       ],
       "src": "https://beisbol.vteximg.com.br/arquivos/youtube-icono-footer.png",
       "link": {
-        "url": "#",
+        "url": "https://www.youtube.com/channel/UCab4ExbVG_JppaE-nEYnxMQ",
         "label": "Youtube",
         "newTab": true
       }

@@ -394,13 +394,13 @@
   color: white;
   font-family: Urbanist;
   font-size: 55px;
-  font-weight: 300;
+  font-weight: 500;
   text-align: center;
 }
 .label--Newsletter::before {
   content: 'Recíbe';
   color: white;
-  font-family: Roboto;
+  font-family: Urbanist;
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
@@ -409,7 +409,7 @@
 .label--Newsletter::after {
   content: 'En tu primera compra';
   color: white;
-  font-family: Roboto;
+  font-family: Urbanist;
   font-size: 25px;
   font-style: normal;
   font-weight: 700;
@@ -1133,7 +1133,12 @@
 }
 
 
-
+.confirmationTitle.confirmationTitle--Newsletter {
+  margin-top: 80px;
+}
+.confirmationText.confirmationText--Newsletter {
+  margin-bottom: 150px;
+}
 
 
 
@@ -1203,4 +1208,25 @@
 .productDescriptionTitle {
   font-size: 15px;
 }
+}
+
+.infoCardCallActionContainer--CategorySlide__Item--1 {
+  padding: 180px 0 0 0;
+  margin: -180px 0 0 0;
+  z-index: 2;
+}
+.infoCardCallActionContainer--CategorySlide__Item--2 {
+  padding: 180px 0 0 0;
+  margin: -180px 0 0 0;
+  z-index: 2;
+}
+.infoCardCallActionContainer--CategorySlide__Item--3 {
+  padding: 180px 0 0 0;
+  margin: -180px 0 0 0;
+  z-index: 2;
+}
+.infoCardCallActionContainer--CategorySlide__Item--4 {
+  padding: 180px 0 0 0;
+  margin: -180px 0 0 0;
+  z-index: 2;
 }
