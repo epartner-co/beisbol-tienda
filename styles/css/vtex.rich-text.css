@@ -193,11 +193,14 @@
   margin-right: 10px;
   color: #28508c;
   font-family: Urbanist;
-  font-size: 25px;
+  font-size: 35px;
   font-style: normal;
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
+}
+.heading--Home__Title:hover {
+  color: #183054;
 }
 .container--Home__Title {
   justify-content: center;
