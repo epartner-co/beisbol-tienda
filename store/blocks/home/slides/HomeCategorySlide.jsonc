@@ -16,6 +16,7 @@
         "phone": 2
       },
       "infinite": true,
+      "autoplay": {"timeout":2500,"stopOnHover": true},
       "showPaginationDots": "never"
     },
     "children": [

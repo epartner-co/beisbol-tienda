@@ -15,8 +15,10 @@
         "Shelf__container",
         "Shelf__container--2"
       ],
-      "orderBy": "OrderByTopSaleDESC"
+      "orderBy": "OrderByTopSaleDESC",
+      "collection": "138"
     },
+    
     "children": ["slider-layout#Shelf-2"],
     "blocks": ["product-summary.shelf#HomeVitrinas"]
   },

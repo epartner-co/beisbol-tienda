@@ -678,6 +678,7 @@
 .flexCol--Footer-Desktop__subColum-5--3 {
   display: flex;
   align-items: center;
+  width: 80%;
 }
 
 @media (min-width: 1450px) {

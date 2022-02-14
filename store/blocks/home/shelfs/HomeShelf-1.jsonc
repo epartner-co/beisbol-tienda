@@ -15,10 +15,12 @@
         "Shelf__container",
         "Shelf__container--1"
       ],
-      "orderBy": "OrderByTopSaleDESC"
-    },
-    "children": ["slider-layout#Shelf-1"],
-    "blocks": ["product-summary.shelf#HomeVitrinas"]
+      "orderBy": "OrderByTopSaleDESC",
+      "collection": "137"
+      },
+      
+      "children": ["slider-layout#Shelf-1"],
+      "blocks": ["product-summary.shelf#HomeVitrinas"]
   },
 
   // * Slider Shelf
