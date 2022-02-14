@@ -31,6 +31,7 @@
         "Shelf__Slider--3"
       ],
       "showPaginationDots": "mobileOnly",
+      "autoplay": {"timeout":2500,"stopOnHover": true},
       "itemsPerPage": {
         "desktop": 4,
         "tablet": 2,
