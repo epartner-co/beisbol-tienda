@@ -15,8 +15,8 @@
         "Shelf__container",
         "Shelf__container--1"
       ],
-      "orderBy": "OrderByTopSaleDESC",
-      "collection": "137"
+      "collection": "137",
+      "maxItems": 20
       },
       
       "children": ["slider-layout#Shelf-1"],
@@ -30,6 +30,7 @@
         "Shelf__Slider",
         "Shelf__Slider--1"
       ],
+      
       "showPaginationDots": "mobileOnly",
       "autoplay": {"timeout":2500,"stopOnHover": true},
       "itemsPerPage": {

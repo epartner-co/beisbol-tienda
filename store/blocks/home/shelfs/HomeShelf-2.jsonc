@@ -15,7 +15,7 @@
         "Shelf__container",
         "Shelf__container--2"
       ],
-      "orderBy": "OrderByTopSaleDESC",
+      "maxItems": 20,
       "collection": "138"
     },
     

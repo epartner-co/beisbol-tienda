@@ -175,3 +175,7 @@
   font-size: 22px;
 }
 }
+
+.sellingPrice.sellingPrice--Search-Product {
+  font-size: 0;
+}
